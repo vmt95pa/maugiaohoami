@@ -1,0 +1,93 @@
+{
+  "HOME": {
+    "title": "Trang chủ",
+    "href": "/"
+  },
+  "TIME_TABLE": {
+    "title": "Lịch - Kế hoạch",
+    "href": "#",
+    "subMenu": [
+      {
+        "title": "Thời khóa biểu",
+        "href": "/time-table"
+      },
+      {
+        "title": "Chương trình học",
+        "href": "/program"
+      }
+    ]
+  },
+  "CONTACT": {
+    "title": "Liên hệ",
+    "href": "/contact"
+  },
+  "BLOG": {
+    "title": "Tin tức",
+    "href": "/blog-grid"
+  },
+  "CLASSES": {
+    "title": "Tuyển sinh",
+    "href": "/classes"
+  },
+  "ABOUT": {
+    "title": "Giới thiệu",
+    "href": "/about"
+  },
+  "PARENT": {
+    "title": "Góc phụ huynh",
+    "href": "#",
+    "subMenu": [
+      {
+        "title": "Sức khỏe của bé",
+        "href": "#"
+      },
+      {
+        "title": "Thực đơn",
+        "href": "#"
+      },
+      {
+        "title": "Kỹ năng nuôi dạy trẻ",
+        "href": "#"
+      }
+    ]
+  },
+  "NOTICE": {
+    "title": "Thông báo",
+    "href": "/events"
+  },
+  "blog": [
+    {
+      "id": 1,
+      "title": "Nâng cao chất lượng dạy và học cho trẻ",
+      "address": "Thôn Tân Trung - Ea Kênh, Krông Păc- Đăk Lăk",
+      "time": "19/04/2023",
+      "image":"assets/images/common/01.vents.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Kế hoạch năm học mới",
+      "address": "Thôn Tân Trung - Ea Kênh, Krông Păc- Đăk Lăk",
+      "time": "19/04/2023",
+      "image":"assets/images/common/02.vents.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Bảng theo dõi sức khỏe lớp trẻ",
+      "address": "Thôn Tân Trung - Ea Kênh, Krông Păc- Đăk Lăk",
+      "time": "12/04/2023",
+      "image":"assets/images/common/03.vents.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Nhiệm vụ trong năm học mới",
+      "address": "Thôn Tân Trung - Ea Kênh, Krông Păc- Đăk Lăk",
+      "time": "14/04/2023",
+      "image":"assets/images/common/04.vents.jpg"
+    }
+  ],
+  "time_table":
+  {
+    "id":"1",
+    "subject":""
+  }
+}
