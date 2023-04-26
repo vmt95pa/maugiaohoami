@@ -5,6 +5,7 @@ import "../styles/globals.css";
 import { Provider } from "react-redux";
 import { store } from "../src/redux/store";
 
+
 const App = ({ Component, pageProps }) => {
   const [loader, setLoader] = useState(true);
   useEffect(() => {
