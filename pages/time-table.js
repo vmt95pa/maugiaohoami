@@ -5,7 +5,7 @@ import Layout from "../src/layouts/Layout";
 
 const TimeTable = () => {
   return (
-    <Layout bodyClass={"about"}>
+    <Layout bodyClass={"time-table"}>
       <PageBanner pageName={"Thời khóa biểu"} />
       <section className="tf-section tf-time-table">
         <div className="container-fluid">
@@ -70,448 +70,401 @@ const TimeTable = () => {
                         <li>
                           <span>Thứ 7</span>
                         </li>
+                        
                       </ul>
                       <ul className="calendar-box fx">
                         <li className="bg1">
-                          <p className="bold">Mathematics</p>
+                          <p className="bold">Nhận biết tập nói</p>
                           <p>07.30 - 08.15</p>
                           <p>
-                            <span>Teacher:</span>
-                            <span className="bold">Michel</span>
+                            <span>Giáo viên:</span>
+                            <span className="bold">cô Vân</span>
                           </p>
                           <p>
-                            <span>Room:</span>
+                            <span> Phòng:</span>
                             <span className="bold">40G</span>
                           </p>
-                          <p>
-                            <span>Level:</span>
-                            <span className="bold">All Levels</span>
-                          </p>
+                          
                         </li>
                         <li className="bg2">
-                          <p className="bold">Arts &amp; Drawing</p>
+                          <p className="bold">Âm nhạc</p>
                           <p>07.30 - 08.15</p>
                           <p>
-                            <span>Teacher:</span>
-                            <span className="bold">Michel</span>
+                            <span>Giáo viên:</span>
+                            <span className="bold">cô Vân</span>
                           </p>
                           <p>
-                            <span>Room:</span>
+                            <span> Phòng:</span>
                             <span className="bold">40G</span>
                           </p>
-                          <p>
-                            <span>Level:</span>
-                            <span className="bold">All Levels</span>
-                          </p>
+                          
                         </li>
                         <li className="bg3">
-                          <p className="bold">Computer</p>
+                          <p className="bold">Thể dục</p>
                           <p>07.30 - 08.15</p>
                           <p>
-                            <span>Teacher:</span>
-                            <span className="bold">Michel</span>
+                            <span>Giáo viên:</span>
+                            <span className="bold">cô Vân</span>
                           </p>
                           <p>
-                            <span>Room:</span>
+                            <span> Phòng:</span>
                             <span className="bold">40G</span>
                           </p>
-                          <p>
-                            <span>Level:</span>
-                            <span className="bold">All Levels</span>
-                          </p>
+                          
                         </li>
                         <li className="bg4">
-                          <p className="bold">Magic English</p>
+                          <p className="bold">Khám phá văn học</p>
                           <p>07.30 - 08.15</p>
                           <p>
-                            <span>Teacher:</span>
-                            <span className="bold">Michel</span>
+                            <span>Giáo viên:</span>
+                            <span className="bold">cô Vân</span>
                           </p>
                           <p>
-                            <span>Room:</span>
+                            <span> Phòng:</span>
                             <span className="bold">40G</span>
                           </p>
-                          <p>
-                            <span>Level:</span>
-                            <span className="bold">All Levels</span>
-                          </p>
+                          
                         </li>
                         <li className="bg5">
-                          <p className="bold">ICT Learning</p>
+                          <p className="bold">Tạo hình</p>
                           <p>07.30 - 08.15</p>
                           <p>
-                            <span>Teacher:</span>
-                            <span className="bold">Michel</span>
+                            <span>Giáo viên:</span>
+                            <span className="bold">cô Vân</span>
                           </p>
                           <p>
-                            <span>Room:</span>
+                            <span> Phòng:</span>
                             <span className="bold">40G</span>
                           </p>
-                          <p>
-                            <span>Level:</span>
-                            <span className="bold">All Levels</span>
-                          </p>
+                          
                         </li>
                         <li className="bg6">
-                          <p className="bold">Language</p>
+                          <p className="bold">Toán</p>
                           <p>07.30 - 08.15</p>
                           <p>
-                            <span>Teacher:</span>
-                            <span className="bold">Michel</span>
+                            <span>Giáo viên:</span>
+                            <span className="bold">cô Vân</span>
                           </p>
                           <p>
-                            <span>Room:</span>
+                            <span> Phòng:</span>
                             <span className="bold">40G</span>
                           </p>
-                          <p>
-                            <span>Level:</span>
-                            <span className="bold">All Levels</span>
-                          </p>
-                        </li>
-                        <li className="bg7"></li>
-                        <li className="bg5">
-                          <p className="bold">ICT Learning</p>
-                          <p>07.30 - 08.15</p>
-                          <p>
-                            <span>Teacher:</span>
-                            <span className="bold">Michel</span>
-                          </p>
-                          <p>
-                            <span>Room:</span>
-                            <span className="bold">40G</span>
-                          </p>
-                          <p>
-                            <span>Level:</span>
-                            <span className="bold">All Levels</span>
-                          </p>
+                          
                         </li>
                         <li className="bg7"></li>
                         <li className="bg1">
-                          <p className="bold">Mathematics</p>
+                          <p className="bold">Nhận biết tập nói</p>
                           <p>07.30 - 08.15</p>
                           <p>
-                            <span>Teacher:</span>
-                            <span className="bold">Michel</span>
+                            <span>Giáo viên:</span>
+                            <span className="bold">cô Vân</span>
                           </p>
                           <p>
-                            <span>Room:</span>
+                            <span> Phòng:</span>
                             <span className="bold">40G</span>
                           </p>
-                          <p>
-                            <span>Level:</span>
-                            <span className="bold">All Levels</span>
-                          </p>
-                        </li>
-                        <li className="bg6">
-                          <p className="bold">Language</p>
-                          <p>07.30 - 08.15</p>
-                          <p>
-                            <span>Teacher:</span>
-                            <span className="bold">Michel</span>
-                          </p>
-                          <p>
-                            <span>Room:</span>
-                            <span className="bold">40G</span>
-                          </p>
-                          <p>
-                            <span>Level:</span>
-                            <span className="bold">All Levels</span>
-                          </p>
-                        </li>
-                        <li className="bg3">
-                          <p className="bold">Computer</p>
-                          <p>07.30 - 08.15</p>
-                          <p>
-                            <span>Teacher:</span>
-                            <span className="bold">Michel</span>
-                          </p>
-                          <p>
-                            <span>Room:</span>
-                            <span className="bold">40G</span>
-                          </p>
-                          <p>
-                            <span>Level:</span>
-                            <span className="bold">All Levels</span>
-                          </p>
-                        </li>
-                        <li className="bg4">
-                          <p className="bold">Magic English</p>
-                          <p>07.30 - 08.15</p>
-                          <p>
-                            <span>Teacher:</span>
-                            <span className="bold">Michel</span>
-                          </p>
-                          <p>
-                            <span>Room:</span>
-                            <span className="bold">40G</span>
-                          </p>
-                          <p>
-                            <span>Level:</span>
-                            <span className="bold">All Levels</span>
-                          </p>
+                          
                         </li>
                         <li className="bg2">
-                          <p className="bold">Arts &amp; Drawing</p>
+                          <p className="bold">Âm nhạc</p>
                           <p>07.30 - 08.15</p>
                           <p>
-                            <span>Teacher:</span>
-                            <span className="bold">Michel</span>
+                            <span>Giáo viên:</span>
+                            <span className="bold">cô Vân</span>
                           </p>
                           <p>
-                            <span>Room:</span>
+                            <span> Phòng:</span>
                             <span className="bold">40G</span>
                           </p>
-                          <p>
-                            <span>Level:</span>
-                            <span className="bold">All Levels</span>
-                          </p>
-                        </li>
-                        <li className="bg1">
-                          <p className="bold">Mathematics</p>
-                          <p>07.30 - 08.15</p>
-                          <p>
-                            <span>Teacher:</span>
-                            <span className="bold">Michel</span>
-                          </p>
-                          <p>
-                            <span>Room:</span>
-                            <span className="bold">40G</span>
-                          </p>
-                          <p>
-                            <span>Level:</span>
-                            <span className="bold">All Levels</span>
-                          </p>
-                        </li>
-                        <li className="bg7"></li>
-                        <li className="bg3">
-                          <p className="bold">Computer</p>
-                          <p>07.30 - 08.15</p>
-                          <p>
-                            <span>Teacher:</span>
-                            <span className="bold">Michel</span>
-                          </p>
-                          <p>
-                            <span>Room:</span>
-                            <span className="bold">40G</span>
-                          </p>
-                          <p>
-                            <span>Level:</span>
-                            <span className="bold">All Levels</span>
-                          </p>
-                        </li>
-                        <li className="bg7"></li>
-                        <li className="bg5">
-                          <p className="bold">ICT Learning</p>
-                          <p>07.30 - 08.15</p>
-                          <p>
-                            <span>Teacher:</span>
-                            <span className="bold">Michel</span>
-                          </p>
-                          <p>
-                            <span>Room:</span>
-                            <span className="bold">40G</span>
-                          </p>
-                          <p>
-                            <span>Level:</span>
-                            <span className="bold">All Levels</span>
-                          </p>
-                        </li>
-                        <li className="bg6">
-                          <p className="bold">Language</p>
-                          <p>07.30 - 08.15</p>
-                          <p>
-                            <span>Teacher:</span>
-                            <span className="bold">Michel</span>
-                          </p>
-                          <p>
-                            <span>Room:</span>
-                            <span className="bold">40G</span>
-                          </p>
-                          <p>
-                            <span>Level:</span>
-                            <span className="bold">All Levels</span>
-                          </p>
-                        </li>
-                        <li className="bg7"></li>
-                        <li className="bg5">
-                          <p className="bold">ICT Learning</p>
-                          <p>07.30 - 08.15</p>
-                          <p>
-                            <span>Teacher:</span>
-                            <span className="bold">Michel</span>
-                          </p>
-                          <p>
-                            <span>Room:</span>
-                            <span className="bold">40G</span>
-                          </p>
-                          <p>
-                            <span>Level:</span>
-                            <span className="bold">All Levels</span>
-                          </p>
-                        </li>
-                        <li className="bg6">
-                          <p className="bold">Language</p>
-                          <p>07.30 - 08.15</p>
-                          <p>
-                            <span>Teacher:</span>
-                            <span className="bold">Michel</span>
-                          </p>
-                          <p>
-                            <span>Room:</span>
-                            <span className="bold">40G</span>
-                          </p>
-                          <p>
-                            <span>Level:</span>
-                            <span className="bold">All Levels</span>
-                          </p>
-                        </li>
-                        <li className="bg7"></li>
-                        <li className="bg1">
-                          <p className="bold">Mathematics</p>
-                          <p>07.30 - 08.15</p>
-                          <p>
-                            <span>Teacher:</span>
-                            <span className="bold">Michel</span>
-                          </p>
-                          <p>
-                            <span>Room:</span>
-                            <span className="bold">40G</span>
-                          </p>
-                          <p>
-                            <span>Level:</span>
-                            <span className="bold">All Levels</span>
-                          </p>
-                        </li>
-                        <li className="bg7"></li>
-                        <li className="bg4">
-                          <p className="bold">Magic English</p>
-                          <p>07.30 - 08.15</p>
-                          <p>
-                            <span>Teacher:</span>
-                            <span className="bold">Michel</span>
-                          </p>
-                          <p>
-                            <span>Room:</span>
-                            <span className="bold">40G</span>
-                          </p>
-                          <p>
-                            <span>Level:</span>
-                            <span className="bold">All Levels</span>
-                          </p>
-                        </li>
-                        <li className="bg2">
-                          <p className="bold">Arts &amp; Drawing</p>
-                          <p>07.30 - 08.15</p>
-                          <p>
-                            <span>Teacher:</span>
-                            <span className="bold">Michel</span>
-                          </p>
-                          <p>
-                            <span>Room:</span>
-                            <span className="bold">40G</span>
-                          </p>
-                          <p>
-                            <span>Level:</span>
-                            <span className="bold">All Levels</span>
-                          </p>
-                        </li>
-                        <li className="bg7"></li>
-                        <li className="bg1">
-                          <p className="bold">Mathematics</p>
-                          <p>07.30 - 08.15</p>
-                          <p>
-                            <span>Teacher:</span>
-                            <span className="bold">Michel</span>
-                          </p>
-                          <p>
-                            <span>Room:</span>
-                            <span className="bold">40G</span>
-                          </p>
-                          <p>
-                            <span>Level:</span>
-                            <span className="bold">All Levels</span>
-                          </p>
-                        </li>
-                        <li className="bg2">
-                          <p className="bold">Art &amp; Drawing</p>
-                          <p>07.30 - 08.15</p>
-                          <p>
-                            <span>Teacher:</span>
-                            <span className="bold">Michel</span>
-                          </p>
-                          <p>
-                            <span>Room:</span>
-                            <span className="bold">40G</span>
-                          </p>
-                          <p>
-                            <span>Level:</span>
-                            <span className="bold">All Levels</span>
-                          </p>
+                          
                         </li>
                         <li className="bg3">
-                          <p className="bold">Computer</p>
+                          <p className="bold">Thể dục</p>
                           <p>07.30 - 08.15</p>
                           <p>
-                            <span>Teacher:</span>
-                            <span className="bold">Michel</span>
+                            <span>Giáo viên:</span>
+                            <span className="bold">cô Vân</span>
                           </p>
                           <p>
-                            <span>Room:</span>
+                            <span> Phòng:</span>
                             <span className="bold">40G</span>
                           </p>
-                          <p>
-                            <span>Level:</span>
-                            <span className="bold">All Levels</span>
-                          </p>
+                          
                         </li>
                         <li className="bg4">
-                          <p className="bold">Magic English</p>
+                          <p className="bold">Khám phá văn học</p>
                           <p>07.30 - 08.15</p>
                           <p>
-                            <span>Teacher:</span>
-                            <span className="bold">Michel</span>
+                            <span>Giáo viên:</span>
+                            <span className="bold">cô Vân</span>
                           </p>
                           <p>
-                            <span>Room:</span>
+                            <span> Phòng:</span>
                             <span className="bold">40G</span>
                           </p>
-                          <p>
-                            <span>Level:</span>
-                            <span className="bold">All Levels</span>
-                          </p>
+                          
                         </li>
                         <li className="bg5">
-                          <p className="bold">ICT Learning</p>
+                          <p className="bold">Tạo hình</p>
                           <p>07.30 - 08.15</p>
                           <p>
-                            <span>Teacher:</span>
-                            <span className="bold">Michel</span>
+                            <span>Giáo viên:</span>
+                            <span className="bold">cô Vân</span>
                           </p>
                           <p>
-                            <span>Room:</span>
+                            <span> Phòng:</span>
                             <span className="bold">40G</span>
                           </p>
-                          <p>
-                            <span>Level:</span>
-                            <span className="bold">All Levels</span>
-                          </p>
+                          
                         </li>
                         <li className="bg6">
-                          <p className="bold">Language</p>
+                          <p className="bold">Toán</p>
                           <p>07.30 - 08.15</p>
                           <p>
-                            <span>Teacher:</span>
-                            <span className="bold">Michel</span>
+                            <span>Giáo viên:</span>
+                            <span className="bold">cô Vân</span>
                           </p>
                           <p>
-                            <span>Room:</span>
+                            <span> Phòng:</span>
                             <span className="bold">40G</span>
                           </p>
-                          <p>
-                            <span>Level:</span>
-                            <span className="bold">All Levels</span>
-                          </p>
+                          
                         </li>
+                        <li className="bg7"></li><li className="bg1">
+                          <p className="bold">Nhận biết tập nói</p>
+                          <p>07.30 - 08.15</p>
+                          <p>
+                            <span>Giáo viên:</span>
+                            <span className="bold">cô Vân</span>
+                          </p>
+                          <p>
+                            <span> Phòng:</span>
+                            <span className="bold">40G</span>
+                          </p>
+                          
+                        </li>
+                        <li className="bg2">
+                          <p className="bold">Âm nhạc</p>
+                          <p>07.30 - 08.15</p>
+                          <p>
+                            <span>Giáo viên:</span>
+                            <span className="bold">cô Vân</span>
+                          </p>
+                          <p>
+                            <span> Phòng:</span>
+                            <span className="bold">40G</span>
+                          </p>
+                          
+                        </li>
+                        <li className="bg3">
+                          <p className="bold">Thể dục</p>
+                          <p>07.30 - 08.15</p>
+                          <p>
+                            <span>Giáo viên:</span>
+                            <span className="bold">cô Vân</span>
+                          </p>
+                          <p>
+                            <span> Phòng:</span>
+                            <span className="bold">40G</span>
+                          </p>
+                          
+                        </li>
+                        <li className="bg4">
+                          <p className="bold">Khám phá văn học</p>
+                          <p>07.30 - 08.15</p>
+                          <p>
+                            <span>Giáo viên:</span>
+                            <span className="bold">cô Vân</span>
+                          </p>
+                          <p>
+                            <span> Phòng:</span>
+                            <span className="bold">40G</span>
+                          </p>
+                          
+                        </li>
+                        <li className="bg5">
+                          <p className="bold">Tạo hình</p>
+                          <p>07.30 - 08.15</p>
+                          <p>
+                            <span>Giáo viên:</span>
+                            <span className="bold">cô Vân</span>
+                          </p>
+                          <p>
+                            <span> Phòng:</span>
+                            <span className="bold">40G</span>
+                          </p>
+                          
+                        </li>
+                        <li className="bg6">
+                          <p className="bold">Toán</p>
+                          <p>07.30 - 08.15</p>
+                          <p>
+                            <span>Giáo viên:</span>
+                            <span className="bold">cô Vân</span>
+                          </p>
+                          <p>
+                            <span> Phòng:</span>
+                            <span className="bold">40G</span>
+                          </p>
+                          
+                        </li>
+                        <li className="bg7"></li><li className="bg1">
+                          <p className="bold">Nhận biết tập nói</p>
+                          <p>07.30 - 08.15</p>
+                          <p>
+                            <span>Giáo viên:</span>
+                            <span className="bold">cô Vân</span>
+                          </p>
+                          <p>
+                            <span> Phòng:</span>
+                            <span className="bold">40G</span>
+                          </p>
+                          
+                        </li>
+                        <li className="bg2">
+                          <p className="bold">Âm nhạc</p>
+                          <p>07.30 - 08.15</p>
+                          <p>
+                            <span>Giáo viên:</span>
+                            <span className="bold">cô Vân</span>
+                          </p>
+                          <p>
+                            <span> Phòng:</span>
+                            <span className="bold">40G</span>
+                          </p>
+                          
+                        </li>
+                        <li className="bg3">
+                          <p className="bold">Thể dục</p>
+                          <p>07.30 - 08.15</p>
+                          <p>
+                            <span>Giáo viên:</span>
+                            <span className="bold">cô Vân</span>
+                          </p>
+                          <p>
+                            <span> Phòng:</span>
+                            <span className="bold">40G</span>
+                          </p>
+                          
+                        </li>
+                        <li className="bg4">
+                          <p className="bold">Khám phá văn học</p>
+                          <p>07.30 - 08.15</p>
+                          <p>
+                            <span>Giáo viên:</span>
+                            <span className="bold">cô Vân</span>
+                          </p>
+                          <p>
+                            <span> Phòng:</span>
+                            <span className="bold">40G</span>
+                          </p>
+                          
+                        </li>
+                        <li className="bg5">
+                          <p className="bold">Tạo hình</p>
+                          <p>07.30 - 08.15</p>
+                          <p>
+                            <span>Giáo viên:</span>
+                            <span className="bold">cô Vân</span>
+                          </p>
+                          <p>
+                            <span> Phòng:</span>
+                            <span className="bold">40G</span>
+                          </p>
+                          
+                        </li>
+                        <li className="bg6">
+                          <p className="bold">Toán</p>
+                          <p>07.30 - 08.15</p>
+                          <p>
+                            <span>Giáo viên:</span>
+                            <span className="bold">cô Vân</span>
+                          </p>
+                          <p>
+                            <span> Phòng:</span>
+                            <span className="bold">40G</span>
+                          </p>
+                          
+                        </li>
+                        <li className="bg7"></li><li className="bg1">
+                          <p className="bold">Nhận biết tập nói</p>
+                          <p>07.30 - 08.15</p>
+                          <p>
+                            <span>Giáo viên:</span>
+                            <span className="bold">cô Vân</span>
+                          </p>
+                          <p>
+                            <span> Phòng:</span>
+                            <span className="bold">40G</span>
+                          </p>
+                          
+                        </li>
+                        <li className="bg2">
+                          <p className="bold">Âm nhạc</p>
+                          <p>07.30 - 08.15</p>
+                          <p>
+                            <span>Giáo viên:</span>
+                            <span className="bold">cô Vân</span>
+                          </p>
+                          <p>
+                            <span> Phòng:</span>
+                            <span className="bold">40G</span>
+                          </p>
+                          
+                        </li>
+                        <li className="bg3">
+                          <p className="bold">Thể dục</p>
+                          <p>07.30 - 08.15</p>
+                          <p>
+                            <span>Giáo viên:</span>
+                            <span className="bold">cô Vân</span>
+                          </p>
+                          <p>
+                            <span> Phòng:</span>
+                            <span className="bold">40G</span>
+                          </p>
+                          
+                        </li>
+                        <li className="bg4">
+                          <p className="bold">Khám phá văn học</p>
+                          <p>07.30 - 08.15</p>
+                          <p>
+                            <span>Giáo viên:</span>
+                            <span className="bold">cô Vân</span>
+                          </p>
+                          <p>
+                            <span> Phòng:</span>
+                            <span className="bold">40G</span>
+                          </p>
+                          
+                        </li>
+                        <li className="bg5">
+                          <p className="bold">Tạo hình</p>
+                          <p>07.30 - 08.15</p>
+                          <p>
+                            <span>Giáo viên:</span>
+                            <span className="bold">cô Vân</span>
+                          </p>
+                          <p>
+                            <span> Phòng:</span>
+                            <span className="bold">40G</span>
+                          </p>
+                          
+                        </li>
+                        <li className="bg6">
+                          <p className="bold">Toán</p>
+                          <p>07.30 - 08.15</p>
+                          <p>
+                            <span>Giáo viên:</span>
+                            <span className="bold">cô Vân</span>
+                          </p>
+                          <p>
+                            <span> Phòng:</span>
+                            <span className="bold">40G</span>
+                          </p>
+                          
+                        </li>
+                        <li className="bg7"></li>
                       </ul>
                     </Tab.Pane>
                     <Tab.Pane eventKey={"2nd"} className="content-inner">
@@ -540,444 +493,363 @@ const TimeTable = () => {
                       </ul>
                       <ul className="calendar-box fx">
                         <li className="bg1">
-                          <p className="bold">Mathematics</p>
+                          <p className="bold">Nhận biết tập nói</p>
                           <p>07.30 - 08.15</p>
                           <p>
-                            <span>Teacher:</span>
-                            <span className="bold">Michel</span>
+                            <span>Giáo viên:</span>
+                            <span className="bold">cô Vân</span>
                           </p>
                           <p>
-                            <span>Room:</span>
+                            <span> Phòng:</span>
                             <span className="bold">40G</span>
                           </p>
-                          <p>
-                            <span>Level:</span>
-                            <span className="bold">All Levels</span>
-                          </p>
+                          
                         </li>
                         <li className="bg2">
-                          <p className="bold">Arts &amp; Drawing</p>
+                          <p className="bold">Âm nhạc</p>
                           <p>07.30 - 08.15</p>
                           <p>
-                            <span>Teacher:</span>
-                            <span className="bold">Michel</span>
+                            <span>Giáo viên:</span>
+                            <span className="bold">cô Vân</span>
                           </p>
                           <p>
-                            <span>Room:</span>
+                            <span> Phòng:</span>
                             <span className="bold">40G</span>
                           </p>
-                          <p>
-                            <span>Level:</span>
-                            <span className="bold">All Levels</span>
-                          </p>
+                          
                         </li>
                         <li className="bg3">
-                          <p className="bold">Computer</p>
+                          <p className="bold">Thể dục</p>
                           <p>07.30 - 08.15</p>
                           <p>
-                            <span>Teacher:</span>
-                            <span className="bold">Michel</span>
+                            <span>Giáo viên:</span>
+                            <span className="bold">cô Vân</span>
                           </p>
                           <p>
-                            <span>Room:</span>
+                            <span> Phòng:</span>
                             <span className="bold">40G</span>
                           </p>
-                          <p>
-                            <span>Level:</span>
-                            <span className="bold">All Levels</span>
-                          </p>
+                          
                         </li>
                         <li className="bg4">
-                          <p className="bold">Magic English</p>
+                          <p className="bold">Khám phá văn học</p>
                           <p>07.30 - 08.15</p>
                           <p>
-                            <span>Teacher:</span>
-                            <span className="bold">Michel</span>
+                            <span>Giáo viên:</span>
+                            <span className="bold">cô Vân</span>
                           </p>
                           <p>
-                            <span>Room:</span>
+                            <span> Phòng:</span>
                             <span className="bold">40G</span>
                           </p>
-                          <p>
-                            <span>Level:</span>
-                            <span className="bold">All Levels</span>
-                          </p>
+                          
                         </li>
                         <li className="bg5">
-                          <p className="bold">ICT Learning</p>
+                          <p className="bold">Tạo hình</p>
                           <p>07.30 - 08.15</p>
                           <p>
-                            <span>Teacher:</span>
-                            <span className="bold">Michel</span>
+                            <span>Giáo viên:</span>
+                            <span className="bold">cô Vân</span>
                           </p>
                           <p>
-                            <span>Room:</span>
+                            <span> Phòng:</span>
                             <span className="bold">40G</span>
                           </p>
-                          <p>
-                            <span>Level:</span>
-                            <span className="bold">All Levels</span>
-                          </p>
+                          
                         </li>
                         <li className="bg6">
-                          <p className="bold">Language</p>
+                          <p className="bold">Toán</p>
                           <p>07.30 - 08.15</p>
                           <p>
-                            <span>Teacher:</span>
-                            <span className="bold">Michel</span>
+                            <span>Giáo viên:</span>
+                            <span className="bold">cô Vân</span>
                           </p>
                           <p>
-                            <span>Room:</span>
+                            <span> Phòng:</span>
                             <span className="bold">40G</span>
                           </p>
-                          <p>
-                            <span>Level:</span>
-                            <span className="bold">All Levels</span>
-                          </p>
+                          
                         </li>
                         <li className="bg7"></li>
                         <li className="bg5">
-                          <p className="bold">ICT Learning</p>
+                          <p className="bold">Tạo hình</p>
                           <p>07.30 - 08.15</p>
                           <p>
-                            <span>Teacher:</span>
-                            <span className="bold">Michel</span>
+                            <span>Giáo viên:</span>
+                            <span className="bold">cô Vân</span>
                           </p>
                           <p>
-                            <span>Room:</span>
+                            <span> Phòng:</span>
                             <span className="bold">40G</span>
                           </p>
-                          <p>
-                            <span>Level:</span>
-                            <span className="bold">All Levels</span>
-                          </p>
+                          
                         </li>
                         <li className="bg7"></li>
                         <li className="bg1">
-                          <p className="bold">Mathematics</p>
+                          <p className="bold">Nhận biết tập nói</p>
                           <p>07.30 - 08.15</p>
                           <p>
-                            <span>Teacher:</span>
-                            <span className="bold">Michel</span>
+                            <span>Giáo viên:</span>
+                            <span className="bold">cô Vân</span>
                           </p>
                           <p>
-                            <span>Room:</span>
+                            <span> Phòng:</span>
                             <span className="bold">40G</span>
                           </p>
-                          <p>
-                            <span>Level:</span>
-                            <span className="bold">All Levels</span>
-                          </p>
+                          
                         </li>
                         <li className="bg6">
-                          <p className="bold">Language</p>
+                          <p className="bold">Toán</p>
                           <p>07.30 - 08.15</p>
                           <p>
-                            <span>Teacher:</span>
-                            <span className="bold">Michel</span>
+                            <span>Giáo viên:</span>
+                            <span className="bold">cô Vân</span>
                           </p>
                           <p>
-                            <span>Room:</span>
+                            <span> Phòng:</span>
                             <span className="bold">40G</span>
                           </p>
-                          <p>
-                            <span>Level:</span>
-                            <span className="bold">All Levels</span>
-                          </p>
+                          
                         </li>
                         <li className="bg3">
-                          <p className="bold">Computer</p>
+                          <p className="bold">Thể dục</p>
                           <p>07.30 - 08.15</p>
                           <p>
-                            <span>Teacher:</span>
-                            <span className="bold">Michel</span>
+                            <span>Giáo viên:</span>
+                            <span className="bold">cô Vân</span>
                           </p>
                           <p>
-                            <span>Room:</span>
+                            <span> Phòng:</span>
                             <span className="bold">40G</span>
                           </p>
-                          <p>
-                            <span>Level:</span>
-                            <span className="bold">All Levels</span>
-                          </p>
+                          
                         </li>
                         <li className="bg4">
-                          <p className="bold">Magic English</p>
+                          <p className="bold">Khám phá văn học</p>
                           <p>07.30 - 08.15</p>
                           <p>
-                            <span>Teacher:</span>
-                            <span className="bold">Michel</span>
+                            <span>Giáo viên:</span>
+                            <span className="bold">cô Vân</span>
                           </p>
                           <p>
-                            <span>Room:</span>
+                            <span> Phòng:</span>
                             <span className="bold">40G</span>
                           </p>
-                          <p>
-                            <span>Level:</span>
-                            <span className="bold">All Levels</span>
-                          </p>
+                          
                         </li>
                         <li className="bg2">
-                          <p className="bold">Arts &amp; Drawing</p>
+                          <p className="bold">Âm nhạc</p>
                           <p>07.30 - 08.15</p>
                           <p>
-                            <span>Teacher:</span>
-                            <span className="bold">Michel</span>
+                            <span>Giáo viên:</span>
+                            <span className="bold">cô Vân</span>
                           </p>
                           <p>
-                            <span>Room:</span>
+                            <span> Phòng:</span>
                             <span className="bold">40G</span>
                           </p>
-                          <p>
-                            <span>Level:</span>
-                            <span className="bold">All Levels</span>
-                          </p>
+                          
                         </li>
                         <li className="bg1">
-                          <p className="bold">Mathematics</p>
+                          <p className="bold">Nhận biết tập nói</p>
                           <p>07.30 - 08.15</p>
                           <p>
-                            <span>Teacher:</span>
-                            <span className="bold">Michel</span>
+                            <span>Giáo viên:</span>
+                            <span className="bold">cô Vân</span>
                           </p>
                           <p>
-                            <span>Room:</span>
+                            <span> Phòng:</span>
                             <span className="bold">40G</span>
                           </p>
-                          <p>
-                            <span>Level:</span>
-                            <span className="bold">All Levels</span>
-                          </p>
+                          
                         </li>
                         <li className="bg7"></li>
                         <li className="bg3">
-                          <p className="bold">Computer</p>
+                          <p className="bold">Thể dục</p>
                           <p>07.30 - 08.15</p>
                           <p>
-                            <span>Teacher:</span>
-                            <span className="bold">Michel</span>
+                            <span>Giáo viên:</span>
+                            <span className="bold">cô Vân</span>
                           </p>
                           <p>
-                            <span>Room:</span>
+                            <span> Phòng:</span>
                             <span className="bold">40G</span>
                           </p>
-                          <p>
-                            <span>Level:</span>
-                            <span className="bold">All Levels</span>
-                          </p>
+                          
                         </li>
                         <li className="bg7"></li>
                         <li className="bg5">
-                          <p className="bold">ICT Learning</p>
+                          <p className="bold">Tạo hình</p>
                           <p>07.30 - 08.15</p>
                           <p>
-                            <span>Teacher:</span>
-                            <span className="bold">Michel</span>
+                            <span>Giáo viên:</span>
+                            <span className="bold">cô Vân</span>
                           </p>
                           <p>
-                            <span>Room:</span>
+                            <span> Phòng:</span>
                             <span className="bold">40G</span>
                           </p>
-                          <p>
-                            <span>Level:</span>
-                            <span className="bold">All Levels</span>
-                          </p>
+                          
                         </li>
                         <li className="bg6">
-                          <p className="bold">Language</p>
+                          <p className="bold">Toán</p>
                           <p>07.30 - 08.15</p>
                           <p>
-                            <span>Teacher:</span>
-                            <span className="bold">Michel</span>
+                            <span>Giáo viên:</span>
+                            <span className="bold">cô Vân</span>
                           </p>
                           <p>
-                            <span>Room:</span>
+                            <span> Phòng:</span>
                             <span className="bold">40G</span>
                           </p>
-                          <p>
-                            <span>Level:</span>
-                            <span className="bold">All Levels</span>
-                          </p>
+                          
                         </li>
                         <li className="bg7"></li>
                         <li className="bg5">
-                          <p className="bold">ICT Learning</p>
+                          <p className="bold">Tạo hình</p>
                           <p>07.30 - 08.15</p>
                           <p>
-                            <span>Teacher:</span>
-                            <span className="bold">Michel</span>
+                            <span>Giáo viên:</span>
+                            <span className="bold">cô Vân</span>
                           </p>
                           <p>
-                            <span>Room:</span>
+                            <span> Phòng:</span>
                             <span className="bold">40G</span>
                           </p>
-                          <p>
-                            <span>Level:</span>
-                            <span className="bold">All Levels</span>
-                          </p>
+                          
                         </li>
                         <li className="bg6">
-                          <p className="bold">Language</p>
+                          <p className="bold">Toán</p>
                           <p>07.30 - 08.15</p>
                           <p>
-                            <span>Teacher:</span>
-                            <span className="bold">Michel</span>
+                            <span>Giáo viên:</span>
+                            <span className="bold">cô Vân</span>
                           </p>
                           <p>
-                            <span>Room:</span>
+                            <span> Phòng:</span>
                             <span className="bold">40G</span>
                           </p>
-                          <p>
-                            <span>Level:</span>
-                            <span className="bold">All Levels</span>
-                          </p>
+                          
                         </li>
                         <li className="bg7"></li>
                         <li className="bg1">
-                          <p className="bold">Mathematics</p>
+                          <p className="bold">Nhận biết tập nói</p>
                           <p>07.30 - 08.15</p>
                           <p>
-                            <span>Teacher:</span>
-                            <span className="bold">Michel</span>
+                            <span>Giáo viên:</span>
+                            <span className="bold">cô Vân</span>
                           </p>
                           <p>
-                            <span>Room:</span>
+                            <span> Phòng:</span>
                             <span className="bold">40G</span>
                           </p>
-                          <p>
-                            <span>Level:</span>
-                            <span className="bold">All Levels</span>
-                          </p>
+                          
                         </li>
                         <li className="bg7"></li>
                         <li className="bg4">
-                          <p className="bold">Magic English</p>
+                          <p className="bold">Khám phá văn học</p>
                           <p>07.30 - 08.15</p>
                           <p>
-                            <span>Teacher:</span>
-                            <span className="bold">Michel</span>
+                            <span>Giáo viên:</span>
+                            <span className="bold">cô Vân</span>
                           </p>
                           <p>
-                            <span>Room:</span>
+                            <span> Phòng:</span>
                             <span className="bold">40G</span>
                           </p>
-                          <p>
-                            <span>Level:</span>
-                            <span className="bold">All Levels</span>
-                          </p>
+                          
                         </li>
                         <li className="bg2">
-                          <p className="bold">Arts &amp; Drawing</p>
+                          <p className="bold">Âm nhạc</p>
                           <p>07.30 - 08.15</p>
                           <p>
-                            <span>Teacher:</span>
-                            <span className="bold">Michel</span>
+                            <span>Giáo viên:</span>
+                            <span className="bold">cô Vân</span>
                           </p>
                           <p>
-                            <span>Room:</span>
+                            <span> Phòng:</span>
                             <span className="bold">40G</span>
                           </p>
-                          <p>
-                            <span>Level:</span>
-                            <span className="bold">All Levels</span>
-                          </p>
+                          
                         </li>
                         <li className="bg7"></li>
                         <li className="bg1">
-                          <p className="bold">Mathematics</p>
+                          <p className="bold">Nhận biết tập nói</p>
                           <p>07.30 - 08.15</p>
                           <p>
-                            <span>Teacher:</span>
-                            <span className="bold">Michel</span>
+                            <span>Giáo viên:</span>
+                            <span className="bold">cô Vân</span>
                           </p>
                           <p>
-                            <span>Room:</span>
+                            <span> Phòng:</span>
                             <span className="bold">40G</span>
                           </p>
-                          <p>
-                            <span>Level:</span>
-                            <span className="bold">All Levels</span>
-                          </p>
+                          
                         </li>
                         <li className="bg2">
-                          <p className="bold">Arts &amp; Drawing</p>
+                          <p className="bold">Âm nhạc</p>
                           <p>07.30 - 08.15</p>
                           <p>
-                            <span>Teacher:</span>
-                            <span className="bold">Michel</span>
+                            <span>Giáo viên:</span>
+                            <span className="bold">cô Vân</span>
                           </p>
                           <p>
-                            <span>Room:</span>
+                            <span> Phòng:</span>
                             <span className="bold">40G</span>
                           </p>
-                          <p>
-                            <span>Level:</span>
-                            <span className="bold">All Levels</span>
-                          </p>
+                          
                         </li>
                         <li className="bg3">
-                          <p className="bold">Computer</p>
+                          <p className="bold">Thể dục</p>
                           <p>07.30 - 08.15</p>
                           <p>
-                            <span>Teacher:</span>
-                            <span className="bold">Michel</span>
+                            <span>Giáo viên:</span>
+                            <span className="bold">cô Vân</span>
                           </p>
                           <p>
-                            <span>Room:</span>
+                            <span> Phòng:</span>
                             <span className="bold">40G</span>
                           </p>
-                          <p>
-                            <span>Level:</span>
-                            <span className="bold">All Levels</span>
-                          </p>
+                          
                         </li>
                         <li className="bg4">
-                          <p className="bold">Magic English</p>
+                          <p className="bold">Khám phá văn học</p>
                           <p>07.30 - 08.15</p>
                           <p>
-                            <span>Teacher:</span>
-                            <span className="bold">Michel</span>
+                            <span>Giáo viên:</span>
+                            <span className="bold">cô Vân</span>
                           </p>
                           <p>
-                            <span>Room:</span>
+                            <span> Phòng:</span>
                             <span className="bold">40G</span>
                           </p>
-                          <p>
-                            <span>Level:</span>
-                            <span className="bold">All Levels</span>
-                          </p>
+                          
                         </li>
                         <li className="bg5">
-                          <p className="bold">ICT Learning</p>
+                          <p className="bold">Tạo hình</p>
                           <p>07.30 - 08.15</p>
                           <p>
-                            <span>Teacher:</span>
-                            <span className="bold">Michel</span>
+                            <span>Giáo viên:</span>
+                            <span className="bold">cô Vân</span>
                           </p>
                           <p>
-                            <span>Room:</span>
+                            <span> Phòng:</span>
                             <span className="bold">40G</span>
                           </p>
-                          <p>
-                            <span>Level:</span>
-                            <span className="bold">All Levels</span>
-                          </p>
+                          
                         </li>
                         <li className="bg6">
-                          <p className="bold">Language</p>
+                          <p className="bold">Toán</p>
                           <p>07.30 - 08.15</p>
                           <p>
-                            <span>Teacher:</span>
-                            <span className="bold">Michel</span>
+                            <span>Giáo viên:</span>
+                            <span className="bold">cô Vân</span>
                           </p>
                           <p>
-                            <span>Room:</span>
+                            <span> Phòng:</span>
                             <span className="bold">40G</span>
                           </p>
-                          <p>
-                            <span>Level:</span>
-                            <span className="bold">All Levels</span>
-                          </p>
+                          
                         </li>
                       </ul>
                     </Tab.Pane>
@@ -1007,444 +879,363 @@ const TimeTable = () => {
                       </ul>
                       <ul className="calendar-box fx">
                         <li className="bg1">
-                          <p className="bold">Mathematics</p>
+                          <p className="bold">Nhận biết tập nói</p>
                           <p>07.30 - 08.15</p>
                           <p>
-                            <span>Teacher:</span>
-                            <span className="bold">Michel</span>
+                            <span>Giáo viên:</span>
+                            <span className="bold">cô Vân</span>
                           </p>
                           <p>
-                            <span>Room:</span>
+                            <span> Phòng:</span>
                             <span className="bold">40G</span>
                           </p>
-                          <p>
-                            <span>Level:</span>
-                            <span className="bold">All Levels</span>
-                          </p>
+                          
                         </li>
                         <li className="bg2">
-                          <p className="bold">Arts &amp; Drawing</p>
+                          <p className="bold">Âm nhạc</p>
                           <p>07.30 - 08.15</p>
                           <p>
-                            <span>Teacher:</span>
-                            <span className="bold">Michel</span>
+                            <span>Giáo viên:</span>
+                            <span className="bold">cô Vân</span>
                           </p>
                           <p>
-                            <span>Room:</span>
+                            <span> Phòng:</span>
                             <span className="bold">40G</span>
                           </p>
-                          <p>
-                            <span>Level:</span>
-                            <span className="bold">All Levels</span>
-                          </p>
+                          
                         </li>
                         <li className="bg3">
-                          <p className="bold">Computer</p>
+                          <p className="bold">Thể dục</p>
                           <p>07.30 - 08.15</p>
                           <p>
-                            <span>Teacher:</span>
-                            <span className="bold">Michel</span>
+                            <span>Giáo viên:</span>
+                            <span className="bold">cô Vân</span>
                           </p>
                           <p>
-                            <span>Room:</span>
+                            <span> Phòng:</span>
                             <span className="bold">40G</span>
                           </p>
-                          <p>
-                            <span>Level:</span>
-                            <span className="bold">All Levels</span>
-                          </p>
+                          
                         </li>
                         <li className="bg4">
-                          <p className="bold">Magic English</p>
+                          <p className="bold">Khám phá văn học</p>
                           <p>07.30 - 08.15</p>
                           <p>
-                            <span>Teacher:</span>
-                            <span className="bold">Michel</span>
+                            <span>Giáo viên:</span>
+                            <span className="bold">cô Vân</span>
                           </p>
                           <p>
-                            <span>Room:</span>
+                            <span> Phòng:</span>
                             <span className="bold">40G</span>
                           </p>
-                          <p>
-                            <span>Level:</span>
-                            <span className="bold">All Levels</span>
-                          </p>
+                          
                         </li>
                         <li className="bg5">
-                          <p className="bold">ICT Learning</p>
+                          <p className="bold">Tạo hình</p>
                           <p>07.30 - 08.15</p>
                           <p>
-                            <span>Teacher:</span>
-                            <span className="bold">Michel</span>
+                            <span>Giáo viên:</span>
+                            <span className="bold">cô Vân</span>
                           </p>
                           <p>
-                            <span>Room:</span>
+                            <span> Phòng:</span>
                             <span className="bold">40G</span>
                           </p>
-                          <p>
-                            <span>Level:</span>
-                            <span className="bold">All Levels</span>
-                          </p>
+                          
                         </li>
                         <li className="bg6">
-                          <p className="bold">Language</p>
+                          <p className="bold">Toán</p>
                           <p>07.30 - 08.15</p>
                           <p>
-                            <span>Teacher:</span>
-                            <span className="bold">Michel</span>
+                            <span>Giáo viên:</span>
+                            <span className="bold">cô Vân</span>
                           </p>
                           <p>
-                            <span>Room:</span>
+                            <span> Phòng:</span>
                             <span className="bold">40G</span>
                           </p>
-                          <p>
-                            <span>Level:</span>
-                            <span className="bold">All Levels</span>
-                          </p>
+                          
                         </li>
                         <li className="bg7"></li>
                         <li className="bg5">
-                          <p className="bold">ICT Learning</p>
+                          <p className="bold">Tạo hình</p>
                           <p>07.30 - 08.15</p>
                           <p>
-                            <span>Teacher:</span>
-                            <span className="bold">Michel</span>
+                            <span>Giáo viên:</span>
+                            <span className="bold">cô Vân</span>
                           </p>
                           <p>
-                            <span>Room:</span>
+                            <span> Phòng:</span>
                             <span className="bold">40G</span>
                           </p>
-                          <p>
-                            <span>Level:</span>
-                            <span className="bold">All Levels</span>
-                          </p>
+                          
                         </li>
                         <li className="bg7"></li>
                         <li className="bg1">
-                          <p className="bold">Mathematics</p>
+                          <p className="bold">Nhận biết tập nói</p>
                           <p>07.30 - 08.15</p>
                           <p>
-                            <span>Teacher:</span>
-                            <span className="bold">Michel</span>
+                            <span>Giáo viên:</span>
+                            <span className="bold">cô Vân</span>
                           </p>
                           <p>
-                            <span>Room:</span>
+                            <span> Phòng:</span>
                             <span className="bold">40G</span>
                           </p>
-                          <p>
-                            <span>Level:</span>
-                            <span className="bold">All Levels</span>
-                          </p>
+                          
                         </li>
                         <li className="bg6">
-                          <p className="bold">Language</p>
+                          <p className="bold">Toán</p>
                           <p>07.30 - 08.15</p>
                           <p>
-                            <span>Teacher:</span>
-                            <span className="bold">Michel</span>
+                            <span>Giáo viên:</span>
+                            <span className="bold">cô Vân</span>
                           </p>
                           <p>
-                            <span>Room:</span>
+                            <span> Phòng:</span>
                             <span className="bold">40G</span>
                           </p>
-                          <p>
-                            <span>Level:</span>
-                            <span className="bold">All Levels</span>
-                          </p>
+                          
                         </li>
                         <li className="bg3">
-                          <p className="bold">Computer</p>
+                          <p className="bold">Thể dục</p>
                           <p>07.30 - 08.15</p>
                           <p>
-                            <span>Teacher:</span>
-                            <span className="bold">Michel</span>
+                            <span>Giáo viên:</span>
+                            <span className="bold">cô Vân</span>
                           </p>
                           <p>
-                            <span>Room:</span>
+                            <span> Phòng:</span>
                             <span className="bold">40G</span>
                           </p>
-                          <p>
-                            <span>Level:</span>
-                            <span className="bold">All Levels</span>
-                          </p>
+                          
                         </li>
                         <li className="bg4">
-                          <p className="bold">Magic English</p>
+                          <p className="bold">Khám phá văn học</p>
                           <p>07.30 - 08.15</p>
                           <p>
-                            <span>Teacher:</span>
-                            <span className="bold">Michel</span>
+                            <span>Giáo viên:</span>
+                            <span className="bold">cô Vân</span>
                           </p>
                           <p>
-                            <span>Room:</span>
+                            <span> Phòng:</span>
                             <span className="bold">40G</span>
                           </p>
-                          <p>
-                            <span>Level:</span>
-                            <span className="bold">All Levels</span>
-                          </p>
+                          
                         </li>
                         <li className="bg2">
-                          <p className="bold">Arts &amp; Drawing</p>
+                          <p className="bold">Âm nhạc</p>
                           <p>07.30 - 08.15</p>
                           <p>
-                            <span>Teacher:</span>
-                            <span className="bold">Michel</span>
+                            <span>Giáo viên:</span>
+                            <span className="bold">cô Vân</span>
                           </p>
                           <p>
-                            <span>Room:</span>
+                            <span> Phòng:</span>
                             <span className="bold">40G</span>
                           </p>
-                          <p>
-                            <span>Level:</span>
-                            <span className="bold">All Levels</span>
-                          </p>
+                          
                         </li>
                         <li className="bg1">
-                          <p className="bold">Mathematics</p>
+                          <p className="bold">Nhận biết tập nói</p>
                           <p>07.30 - 08.15</p>
                           <p>
-                            <span>Teacher:</span>
-                            <span className="bold">Michel</span>
+                            <span>Giáo viên:</span>
+                            <span className="bold">cô Vân</span>
                           </p>
                           <p>
-                            <span>Room:</span>
+                            <span> Phòng:</span>
                             <span className="bold">40G</span>
                           </p>
-                          <p>
-                            <span>Level:</span>
-                            <span className="bold">All Levels</span>
-                          </p>
+                          
                         </li>
                         <li className="bg7"></li>
                         <li className="bg3">
-                          <p className="bold">Computer</p>
+                          <p className="bold">Thể dục</p>
                           <p>07.30 - 08.15</p>
                           <p>
-                            <span>Teacher:</span>
-                            <span className="bold">Michel</span>
+                            <span>Giáo viên:</span>
+                            <span className="bold">cô Vân</span>
                           </p>
                           <p>
-                            <span>Room:</span>
+                            <span> Phòng:</span>
                             <span className="bold">40G</span>
                           </p>
-                          <p>
-                            <span>Level:</span>
-                            <span className="bold">All Levels</span>
-                          </p>
+                          
                         </li>
                         <li className="bg7"></li>
                         <li className="bg5">
-                          <p className="bold">ICT Learning</p>
+                          <p className="bold">Tạo hình</p>
                           <p>07.30 - 08.15</p>
                           <p>
-                            <span>Teacher:</span>
-                            <span className="bold">Michel</span>
+                            <span>Giáo viên:</span>
+                            <span className="bold">cô Vân</span>
                           </p>
                           <p>
-                            <span>Room:</span>
+                            <span> Phòng:</span>
                             <span className="bold">40G</span>
                           </p>
-                          <p>
-                            <span>Level:</span>
-                            <span className="bold">All Levels</span>
-                          </p>
+                          
                         </li>
                         <li className="bg6">
-                          <p className="bold">Language</p>
+                          <p className="bold">Toán</p>
                           <p>07.30 - 08.15</p>
                           <p>
-                            <span>Teacher:</span>
-                            <span className="bold">Michel</span>
+                            <span>Giáo viên:</span>
+                            <span className="bold">cô Vân</span>
                           </p>
                           <p>
-                            <span>Room:</span>
+                            <span> Phòng:</span>
                             <span className="bold">40G</span>
                           </p>
-                          <p>
-                            <span>Level:</span>
-                            <span className="bold">All Levels</span>
-                          </p>
+                          
                         </li>
                         <li className="bg7"></li>
                         <li className="bg5">
-                          <p className="bold">ICT Learning</p>
+                          <p className="bold">Tạo hình</p>
                           <p>07.30 - 08.15</p>
                           <p>
-                            <span>Teacher:</span>
-                            <span className="bold">Michel</span>
+                            <span>Giáo viên:</span>
+                            <span className="bold">cô Vân</span>
                           </p>
                           <p>
-                            <span>Room:</span>
+                            <span> Phòng:</span>
                             <span className="bold">40G</span>
                           </p>
-                          <p>
-                            <span>Level:</span>
-                            <span className="bold">All Levels</span>
-                          </p>
+                          
                         </li>
                         <li className="bg6">
-                          <p className="bold">Language</p>
+                          <p className="bold">Toán</p>
                           <p>07.30 - 08.15</p>
                           <p>
-                            <span>Teacher:</span>
-                            <span className="bold">Michel</span>
+                            <span>Giáo viên:</span>
+                            <span className="bold">cô Vân</span>
                           </p>
                           <p>
-                            <span>Room:</span>
+                            <span> Phòng:</span>
                             <span className="bold">40G</span>
                           </p>
-                          <p>
-                            <span>Level:</span>
-                            <span className="bold">All Levels</span>
-                          </p>
+                          
                         </li>
                         <li className="bg7"></li>
                         <li className="bg1">
-                          <p className="bold">Mathematics</p>
+                          <p className="bold">Nhận biết tập nói</p>
                           <p>07.30 - 08.15</p>
                           <p>
-                            <span>Teacher:</span>
-                            <span className="bold">Michel</span>
+                            <span>Giáo viên:</span>
+                            <span className="bold">cô Vân</span>
                           </p>
                           <p>
-                            <span>Room:</span>
+                            <span> Phòng:</span>
                             <span className="bold">40G</span>
                           </p>
-                          <p>
-                            <span>Level:</span>
-                            <span className="bold">All Levels</span>
-                          </p>
+                          
                         </li>
                         <li className="bg7"></li>
                         <li className="bg4">
-                          <p className="bold">Magic English</p>
+                          <p className="bold">Khám phá văn học</p>
                           <p>07.30 - 08.15</p>
                           <p>
-                            <span>Teacher:</span>
-                            <span className="bold">Michel</span>
+                            <span>Giáo viên:</span>
+                            <span className="bold">cô Vân</span>
                           </p>
                           <p>
-                            <span>Room:</span>
+                            <span> Phòng:</span>
                             <span className="bold">40G</span>
                           </p>
-                          <p>
-                            <span>Level:</span>
-                            <span className="bold">All Levels</span>
-                          </p>
+                          
                         </li>
                         <li className="bg2">
-                          <p className="bold">Arts &amp; Drawing</p>
+                          <p className="bold">Âm nhạc</p>
                           <p>07.30 - 08.15</p>
                           <p>
-                            <span>Teacher:</span>
-                            <span className="bold">Michel</span>
+                            <span>Giáo viên:</span>
+                            <span className="bold">cô Vân</span>
                           </p>
                           <p>
-                            <span>Room:</span>
+                            <span> Phòng:</span>
                             <span className="bold">40G</span>
                           </p>
-                          <p>
-                            <span>Level:</span>
-                            <span className="bold">All Levels</span>
-                          </p>
+                          
                         </li>
                         <li className="bg7"></li>
                         <li className="bg1">
-                          <p className="bold">Mathematics</p>
+                          <p className="bold">Nhận biết tập nói</p>
                           <p>07.30 - 08.15</p>
                           <p>
-                            <span>Teacher:</span>
-                            <span className="bold">Michel</span>
+                            <span>Giáo viên:</span>
+                            <span className="bold">cô Vân</span>
                           </p>
                           <p>
-                            <span>Room:</span>
+                            <span> Phòng:</span>
                             <span className="bold">40G</span>
                           </p>
-                          <p>
-                            <span>Level:</span>
-                            <span className="bold">All Levels</span>
-                          </p>
+                          
                         </li>
                         <li className="bg2">
-                          <p className="bold">Arts &amp; Drawing</p>
+                          <p className="bold">Âm nhạc</p>
                           <p>07.30 - 08.15</p>
                           <p>
-                            <span>Teacher:</span>
-                            <span className="bold">Michel</span>
+                            <span>Giáo viên:</span>
+                            <span className="bold">cô Vân</span>
                           </p>
                           <p>
-                            <span>Room:</span>
+                            <span> Phòng:</span>
                             <span className="bold">40G</span>
                           </p>
-                          <p>
-                            <span>Level:</span>
-                            <span className="bold">All Levels</span>
-                          </p>
+                          
                         </li>
                         <li className="bg3">
-                          <p className="bold">Computer</p>
+                          <p className="bold">Thể dục</p>
                           <p>07.30 - 08.15</p>
                           <p>
-                            <span>Teacher:</span>
-                            <span className="bold">Michel</span>
+                            <span>Giáo viên:</span>
+                            <span className="bold">cô Vân</span>
                           </p>
                           <p>
-                            <span>Room:</span>
+                            <span> Phòng:</span>
                             <span className="bold">40G</span>
                           </p>
-                          <p>
-                            <span>Level:</span>
-                            <span className="bold">All Levels</span>
-                          </p>
+                          
                         </li>
                         <li className="bg4">
-                          <p className="bold">Magic English</p>
+                          <p className="bold">Khám phá văn học</p>
                           <p>07.30 - 08.15</p>
                           <p>
-                            <span>Teacher:</span>
-                            <span className="bold">Michel</span>
+                            <span>Giáo viên:</span>
+                            <span className="bold">cô Vân</span>
                           </p>
                           <p>
-                            <span>Room:</span>
+                            <span> Phòng:</span>
                             <span className="bold">40G</span>
                           </p>
-                          <p>
-                            <span>Level:</span>
-                            <span className="bold">All Levels</span>
-                          </p>
+                          
                         </li>
                         <li className="bg5">
-                          <p className="bold">ICT Learning</p>
+                          <p className="bold">Tạo hình</p>
                           <p>07.30 - 08.15</p>
                           <p>
-                            <span>Teacher:</span>
-                            <span className="bold">Michel</span>
+                            <span>Giáo viên:</span>
+                            <span className="bold">cô Vân</span>
                           </p>
                           <p>
-                            <span>Room:</span>
+                            <span> Phòng:</span>
                             <span className="bold">40G</span>
                           </p>
-                          <p>
-                            <span>Level:</span>
-                            <span className="bold">All Levels</span>
-                          </p>
+                          
                         </li>
                         <li className="bg6">
-                          <p className="bold">Language</p>
+                          <p className="bold">Toán</p>
                           <p>07.30 - 08.15</p>
                           <p>
-                            <span>Teacher:</span>
-                            <span className="bold">Michel</span>
+                            <span>Giáo viên:</span>
+                            <span className="bold">cô Vân</span>
                           </p>
                           <p>
-                            <span>Room:</span>
+                            <span> Phòng:</span>
                             <span className="bold">40G</span>
                           </p>
-                          <p>
-                            <span>Level:</span>
-                            <span className="bold">All Levels</span>
-                          </p>
+                          
                         </li>
                       </ul>
                     </Tab.Pane>
@@ -1474,444 +1265,363 @@ const TimeTable = () => {
                       </ul>
                       <ul className="calendar-box fx">
                         <li className="bg1">
-                          <p className="bold">Mathematics</p>
+                          <p className="bold">Nhận biết tập nói</p>
                           <p>07.30 - 08.15</p>
                           <p>
-                            <span>Teacher:</span>
-                            <span className="bold">Michel</span>
+                            <span>Giáo viên:</span>
+                            <span className="bold">cô Vân</span>
                           </p>
                           <p>
-                            <span>Room:</span>
+                            <span> Phòng:</span>
                             <span className="bold">40G</span>
                           </p>
-                          <p>
-                            <span>Level:</span>
-                            <span className="bold">All Levels</span>
-                          </p>
+                          
                         </li>
                         <li className="bg2">
-                          <p className="bold">Arts &amp; Drawing</p>
+                          <p className="bold">Âm nhạc</p>
                           <p>07.30 - 08.15</p>
                           <p>
-                            <span>Teacher:</span>
-                            <span className="bold">Michel</span>
+                            <span>Giáo viên:</span>
+                            <span className="bold">cô Vân</span>
                           </p>
                           <p>
-                            <span>Room:</span>
+                            <span> Phòng:</span>
                             <span className="bold">40G</span>
                           </p>
-                          <p>
-                            <span>Level:</span>
-                            <span className="bold">All Levels</span>
-                          </p>
+                          
                         </li>
                         <li className="bg3">
-                          <p className="bold">Computer</p>
+                          <p className="bold">Thể dục</p>
                           <p>07.30 - 08.15</p>
                           <p>
-                            <span>Teacher:</span>
-                            <span className="bold">Michel</span>
+                            <span>Giáo viên:</span>
+                            <span className="bold">cô Vân</span>
                           </p>
                           <p>
-                            <span>Room:</span>
+                            <span> Phòng:</span>
                             <span className="bold">40G</span>
                           </p>
-                          <p>
-                            <span>Level:</span>
-                            <span className="bold">All Levels</span>
-                          </p>
+                          
                         </li>
                         <li className="bg4">
-                          <p className="bold">Magic English</p>
+                          <p className="bold">Khám phá văn học</p>
                           <p>07.30 - 08.15</p>
                           <p>
-                            <span>Teacher:</span>
-                            <span className="bold">Michel</span>
+                            <span>Giáo viên:</span>
+                            <span className="bold">cô Vân</span>
                           </p>
                           <p>
-                            <span>Room:</span>
+                            <span> Phòng:</span>
                             <span className="bold">40G</span>
                           </p>
-                          <p>
-                            <span>Level:</span>
-                            <span className="bold">All Levels</span>
-                          </p>
+                          
                         </li>
                         <li className="bg5">
-                          <p className="bold">ICT Learning</p>
+                          <p className="bold">Tạo hình</p>
                           <p>07.30 - 08.15</p>
                           <p>
-                            <span>Teacher:</span>
-                            <span className="bold">Michel</span>
+                            <span>Giáo viên:</span>
+                            <span className="bold">cô Vân</span>
                           </p>
                           <p>
-                            <span>Room:</span>
+                            <span> Phòng:</span>
                             <span className="bold">40G</span>
                           </p>
-                          <p>
-                            <span>Level:</span>
-                            <span className="bold">All Levels</span>
-                          </p>
+                          
                         </li>
                         <li className="bg6">
-                          <p className="bold">Language</p>
+                          <p className="bold">Toán</p>
                           <p>07.30 - 08.15</p>
                           <p>
-                            <span>Teacher:</span>
-                            <span className="bold">Michel</span>
+                            <span>Giáo viên:</span>
+                            <span className="bold">cô Vân</span>
                           </p>
                           <p>
-                            <span>Room:</span>
+                            <span> Phòng:</span>
                             <span className="bold">40G</span>
                           </p>
-                          <p>
-                            <span>Level:</span>
-                            <span className="bold">All Levels</span>
-                          </p>
+                          
                         </li>
                         <li className="bg7"></li>
                         <li className="bg5">
-                          <p className="bold">ICT Learning</p>
+                          <p className="bold">Tạo hình</p>
                           <p>07.30 - 08.15</p>
                           <p>
-                            <span>Teacher:</span>
-                            <span className="bold">Michel</span>
+                            <span>Giáo viên:</span>
+                            <span className="bold">cô Vân</span>
                           </p>
                           <p>
-                            <span>Room:</span>
+                            <span> Phòng:</span>
                             <span className="bold">40G</span>
                           </p>
-                          <p>
-                            <span>Level:</span>
-                            <span className="bold">All Levels</span>
-                          </p>
+                          
                         </li>
                         <li className="bg7"></li>
                         <li className="bg1">
-                          <p className="bold">Mathematics</p>
+                          <p className="bold">Nhận biết tập nói</p>
                           <p>07.30 - 08.15</p>
                           <p>
-                            <span>Teacher:</span>
-                            <span className="bold">Michel</span>
+                            <span>Giáo viên:</span>
+                            <span className="bold">cô Vân</span>
                           </p>
                           <p>
-                            <span>Room:</span>
+                            <span> Phòng:</span>
                             <span className="bold">40G</span>
                           </p>
-                          <p>
-                            <span>Level:</span>
-                            <span className="bold">All Levels</span>
-                          </p>
+                          
                         </li>
                         <li className="bg6">
-                          <p className="bold">Language</p>
+                          <p className="bold">Toán</p>
                           <p>07.30 - 08.15</p>
                           <p>
-                            <span>Teacher:</span>
-                            <span className="bold">Michel</span>
+                            <span>Giáo viên:</span>
+                            <span className="bold">cô Vân</span>
                           </p>
                           <p>
-                            <span>Room:</span>
+                            <span> Phòng:</span>
                             <span className="bold">40G</span>
                           </p>
-                          <p>
-                            <span>Level:</span>
-                            <span className="bold">All Levels</span>
-                          </p>
+                          
                         </li>
                         <li className="bg3">
-                          <p className="bold">Computer</p>
+                          <p className="bold">Thể dục</p>
                           <p>07.30 - 08.15</p>
                           <p>
-                            <span>Teacher:</span>
-                            <span className="bold">Michel</span>
+                            <span>Giáo viên:</span>
+                            <span className="bold">cô Vân</span>
                           </p>
                           <p>
-                            <span>Room:</span>
+                            <span> Phòng:</span>
                             <span className="bold">40G</span>
                           </p>
-                          <p>
-                            <span>Level:</span>
-                            <span className="bold">All Levels</span>
-                          </p>
+                          
                         </li>
                         <li className="bg4">
-                          <p className="bold">Magic English</p>
+                          <p className="bold">Khám phá văn học</p>
                           <p>07.30 - 08.15</p>
                           <p>
-                            <span>Teacher:</span>
-                            <span className="bold">Michel</span>
+                            <span>Giáo viên:</span>
+                            <span className="bold">cô Vân</span>
                           </p>
                           <p>
-                            <span>Room:</span>
+                            <span> Phòng:</span>
                             <span className="bold">40G</span>
                           </p>
-                          <p>
-                            <span>Level:</span>
-                            <span className="bold">All Levels</span>
-                          </p>
+                          
                         </li>
                         <li className="bg2">
-                          <p className="bold">Arts &amp; Drawing</p>
+                          <p className="bold">Âm nhạc</p>
                           <p>07.30 - 08.15</p>
                           <p>
-                            <span>Teacher:</span>
-                            <span className="bold">Michel</span>
+                            <span>Giáo viên:</span>
+                            <span className="bold">cô Vân</span>
                           </p>
                           <p>
-                            <span>Room:</span>
+                            <span> Phòng:</span>
                             <span className="bold">40G</span>
                           </p>
-                          <p>
-                            <span>Level:</span>
-                            <span className="bold">All Levels</span>
-                          </p>
+                          
                         </li>
                         <li className="bg1">
-                          <p className="bold">Mathematics</p>
+                          <p className="bold">Nhận biết tập nói</p>
                           <p>07.30 - 08.15</p>
                           <p>
-                            <span>Teacher:</span>
-                            <span className="bold">Michel</span>
+                            <span>Giáo viên:</span>
+                            <span className="bold">cô Vân</span>
                           </p>
                           <p>
-                            <span>Room:</span>
+                            <span> Phòng:</span>
                             <span className="bold">40G</span>
                           </p>
-                          <p>
-                            <span>Level:</span>
-                            <span className="bold">All Levels</span>
-                          </p>
+                          
                         </li>
                         <li className="bg7"></li>
                         <li className="bg3">
-                          <p className="bold">Computer</p>
+                          <p className="bold">Thể dục</p>
                           <p>07.30 - 08.15</p>
                           <p>
-                            <span>Teacher:</span>
-                            <span className="bold">Michel</span>
+                            <span>Giáo viên:</span>
+                            <span className="bold">cô Vân</span>
                           </p>
                           <p>
-                            <span>Room:</span>
+                            <span> Phòng:</span>
                             <span className="bold">40G</span>
                           </p>
-                          <p>
-                            <span>Level:</span>
-                            <span className="bold">All Levels</span>
-                          </p>
+                          
                         </li>
                         <li className="bg7"></li>
                         <li className="bg5">
-                          <p className="bold">ICT Learning</p>
+                          <p className="bold">Tạo hình</p>
                           <p>07.30 - 08.15</p>
                           <p>
-                            <span>Teacher:</span>
-                            <span className="bold">Michel</span>
+                            <span>Giáo viên:</span>
+                            <span className="bold">cô Vân</span>
                           </p>
                           <p>
-                            <span>Room:</span>
+                            <span> Phòng:</span>
                             <span className="bold">40G</span>
                           </p>
-                          <p>
-                            <span>Level:</span>
-                            <span className="bold">All Levels</span>
-                          </p>
+                          
                         </li>
                         <li className="bg6">
-                          <p className="bold">Language</p>
+                          <p className="bold">Toán</p>
                           <p>07.30 - 08.15</p>
                           <p>
-                            <span>Teacher:</span>
-                            <span className="bold">Michel</span>
+                            <span>Giáo viên:</span>
+                            <span className="bold">cô Vân</span>
                           </p>
                           <p>
-                            <span>Room:</span>
+                            <span> Phòng:</span>
                             <span className="bold">40G</span>
                           </p>
-                          <p>
-                            <span>Level:</span>
-                            <span className="bold">All Levels</span>
-                          </p>
+                          
                         </li>
                         <li className="bg7"></li>
                         <li className="bg5">
-                          <p className="bold">ICT Learning</p>
+                          <p className="bold">Tạo hình</p>
                           <p>07.30 - 08.15</p>
                           <p>
-                            <span>Teacher:</span>
-                            <span className="bold">Michel</span>
+                            <span>Giáo viên:</span>
+                            <span className="bold">cô Vân</span>
                           </p>
                           <p>
-                            <span>Room:</span>
+                            <span> Phòng:</span>
                             <span className="bold">40G</span>
                           </p>
-                          <p>
-                            <span>Level:</span>
-                            <span className="bold">All Levels</span>
-                          </p>
+                          
                         </li>
                         <li className="bg6">
-                          <p className="bold">Language</p>
+                          <p className="bold">Toán</p>
                           <p>07.30 - 08.15</p>
                           <p>
-                            <span>Teacher:</span>
-                            <span className="bold">Michel</span>
+                            <span>Giáo viên:</span>
+                            <span className="bold">cô Vân</span>
                           </p>
                           <p>
-                            <span>Room:</span>
+                            <span> Phòng:</span>
                             <span className="bold">40G</span>
                           </p>
-                          <p>
-                            <span>Level:</span>
-                            <span className="bold">All Levels</span>
-                          </p>
+                          
                         </li>
                         <li className="bg7"></li>
                         <li className="bg1">
-                          <p className="bold">Mathematics</p>
+                          <p className="bold">Nhận biết tập nói</p>
                           <p>07.30 - 08.15</p>
                           <p>
-                            <span>Teacher:</span>
-                            <span className="bold">Michel</span>
+                            <span>Giáo viên:</span>
+                            <span className="bold">cô Vân</span>
                           </p>
                           <p>
-                            <span>Room:</span>
+                            <span> Phòng:</span>
                             <span className="bold">40G</span>
                           </p>
-                          <p>
-                            <span>Level:</span>
-                            <span className="bold">All Levels</span>
-                          </p>
+                          
                         </li>
                         <li className="bg7"></li>
                         <li className="bg4">
-                          <p className="bold">Magic English</p>
+                          <p className="bold">Khám phá văn học</p>
                           <p>07.30 - 08.15</p>
                           <p>
-                            <span>Teacher:</span>
-                            <span className="bold">Michel</span>
+                            <span>Giáo viên:</span>
+                            <span className="bold">cô Vân</span>
                           </p>
                           <p>
-                            <span>Room:</span>
+                            <span> Phòng:</span>
                             <span className="bold">40G</span>
                           </p>
-                          <p>
-                            <span>Level:</span>
-                            <span className="bold">All Levels</span>
-                          </p>
+                          
                         </li>
                         <li className="bg2">
-                          <p className="bold">Arts &amp; Drawing</p>
+                          <p className="bold">Âm nhạc</p>
                           <p>07.30 - 08.15</p>
                           <p>
-                            <span>Teacher:</span>
-                            <span className="bold">Michel</span>
+                            <span>Giáo viên:</span>
+                            <span className="bold">cô Vân</span>
                           </p>
                           <p>
-                            <span>Room:</span>
+                            <span> Phòng:</span>
                             <span className="bold">40G</span>
                           </p>
-                          <p>
-                            <span>Level:</span>
-                            <span className="bold">All Levels</span>
-                          </p>
+                          
                         </li>
                         <li className="bg7"></li>
                         <li className="bg1">
-                          <p className="bold">Mathematics</p>
+                          <p className="bold">Nhận biết tập nói</p>
                           <p>07.30 - 08.15</p>
                           <p>
-                            <span>Teacher:</span>
-                            <span className="bold">Michel</span>
+                            <span>Giáo viên:</span>
+                            <span className="bold">cô Vân</span>
                           </p>
                           <p>
-                            <span>Room:</span>
+                            <span> Phòng:</span>
                             <span className="bold">40G</span>
                           </p>
-                          <p>
-                            <span>Level:</span>
-                            <span className="bold">All Levels</span>
-                          </p>
+                          
                         </li>
                         <li className="bg2">
-                          <p className="bold">Arts &amp; Drawing</p>
+                          <p className="bold">Âm nhạc</p>
                           <p>07.30 - 08.15</p>
                           <p>
-                            <span>Teacher:</span>
-                            <span className="bold">Michel</span>
+                            <span>Giáo viên:</span>
+                            <span className="bold">cô Vân</span>
                           </p>
                           <p>
-                            <span>Room:</span>
+                            <span> Phòng:</span>
                             <span className="bold">40G</span>
                           </p>
-                          <p>
-                            <span>Level:</span>
-                            <span className="bold">All Levels</span>
-                          </p>
+                          
                         </li>
                         <li className="bg3">
-                          <p className="bold">Computer</p>
+                          <p className="bold">Thể dục</p>
                           <p>07.30 - 08.15</p>
                           <p>
-                            <span>Teacher:</span>
-                            <span className="bold">Michel</span>
+                            <span>Giáo viên:</span>
+                            <span className="bold">cô Vân</span>
                           </p>
                           <p>
-                            <span>Room:</span>
+                            <span> Phòng:</span>
                             <span className="bold">40G</span>
                           </p>
-                          <p>
-                            <span>Level:</span>
-                            <span className="bold">All Levels</span>
-                          </p>
+                          
                         </li>
                         <li className="bg4">
-                          <p className="bold">Magic English</p>
+                          <p className="bold">Khám phá văn học</p>
                           <p>07.30 - 08.15</p>
                           <p>
-                            <span>Teacher:</span>
-                            <span className="bold">Michel</span>
+                            <span>Giáo viên:</span>
+                            <span className="bold">cô Vân</span>
                           </p>
                           <p>
-                            <span>Room:</span>
+                            <span> Phòng:</span>
                             <span className="bold">40G</span>
                           </p>
-                          <p>
-                            <span>Level:</span>
-                            <span className="bold">All Levels</span>
-                          </p>
+                          
                         </li>
                         <li className="bg5">
-                          <p className="bold">ICT Learning</p>
+                          <p className="bold">Tạo hình</p>
                           <p>07.30 - 08.15</p>
                           <p>
-                            <span>Teacher:</span>
-                            <span className="bold">Michel</span>
+                            <span>Giáo viên:</span>
+                            <span className="bold">cô Vân</span>
                           </p>
                           <p>
-                            <span>Room:</span>
+                            <span> Phòng:</span>
                             <span className="bold">40G</span>
                           </p>
-                          <p>
-                            <span>Level:</span>
-                            <span className="bold">All Levels</span>
-                          </p>
+                          
                         </li>
                         <li className="bg6">
-                          <p className="bold">Language</p>
+                          <p className="bold">Toán</p>
                           <p>07.30 - 08.15</p>
                           <p>
-                            <span>Teacher:</span>
-                            <span className="bold">Michel</span>
+                            <span>Giáo viên:</span>
+                            <span className="bold">cô Vân</span>
                           </p>
                           <p>
-                            <span>Room:</span>
+                            <span> Phòng:</span>
                             <span className="bold">40G</span>
                           </p>
-                          <p>
-                            <span>Level:</span>
-                            <span className="bold">All Levels</span>
-                          </p>
+                          
                         </li>
                       </ul>
                     </Tab.Pane>
@@ -1941,444 +1651,363 @@ const TimeTable = () => {
                       </ul>
                       <ul className="calendar-box fx">
                         <li className="bg1">
-                          <p className="bold">Mathematics</p>
+                          <p className="bold">Nhận biết tập nói</p>
                           <p>07.30 - 08.15</p>
                           <p>
-                            <span>Teacher:</span>
-                            <span className="bold">Michel</span>
+                            <span>Giáo viên:</span>
+                            <span className="bold">cô Vân</span>
                           </p>
                           <p>
-                            <span>Room:</span>
+                            <span> Phòng:</span>
                             <span className="bold">40G</span>
                           </p>
-                          <p>
-                            <span>Level:</span>
-                            <span className="bold">All Levels</span>
-                          </p>
+                          
                         </li>
                         <li className="bg2">
-                          <p className="bold">Arts &amp; Drawing</p>
+                          <p className="bold">Âm nhạc</p>
                           <p>07.30 - 08.15</p>
                           <p>
-                            <span>Teacher:</span>
-                            <span className="bold">Michel</span>
+                            <span>Giáo viên:</span>
+                            <span className="bold">cô Vân</span>
                           </p>
                           <p>
-                            <span>Room:</span>
+                            <span> Phòng:</span>
                             <span className="bold">40G</span>
                           </p>
-                          <p>
-                            <span>Level:</span>
-                            <span className="bold">All Levels</span>
-                          </p>
+                          
                         </li>
                         <li className="bg3">
-                          <p className="bold">Computer</p>
+                          <p className="bold">Thể dục</p>
                           <p>07.30 - 08.15</p>
                           <p>
-                            <span>Teacher:</span>
-                            <span className="bold">Michel</span>
+                            <span>Giáo viên:</span>
+                            <span className="bold">cô Vân</span>
                           </p>
                           <p>
-                            <span>Room:</span>
+                            <span> Phòng:</span>
                             <span className="bold">40G</span>
                           </p>
-                          <p>
-                            <span>Level:</span>
-                            <span className="bold">All Levels</span>
-                          </p>
+                          
                         </li>
                         <li className="bg4">
-                          <p className="bold">Magic English</p>
+                          <p className="bold">Khám phá văn học</p>
                           <p>07.30 - 08.15</p>
                           <p>
-                            <span>Teacher:</span>
-                            <span className="bold">Michel</span>
+                            <span>Giáo viên:</span>
+                            <span className="bold">cô Vân</span>
                           </p>
                           <p>
-                            <span>Room:</span>
+                            <span> Phòng:</span>
                             <span className="bold">40G</span>
                           </p>
-                          <p>
-                            <span>Level:</span>
-                            <span className="bold">All Levels</span>
-                          </p>
+                          
                         </li>
                         <li className="bg5">
-                          <p className="bold">ICT Learning</p>
+                          <p className="bold">Tạo hình</p>
                           <p>07.30 - 08.15</p>
                           <p>
-                            <span>Teacher:</span>
-                            <span className="bold">Michel</span>
+                            <span>Giáo viên:</span>
+                            <span className="bold">cô Vân</span>
                           </p>
                           <p>
-                            <span>Room:</span>
+                            <span> Phòng:</span>
                             <span className="bold">40G</span>
                           </p>
-                          <p>
-                            <span>Level:</span>
-                            <span className="bold">All Levels</span>
-                          </p>
+                          
                         </li>
                         <li className="bg6">
-                          <p className="bold">Language</p>
+                          <p className="bold">Toán</p>
                           <p>07.30 - 08.15</p>
                           <p>
-                            <span>Teacher:</span>
-                            <span className="bold">Michel</span>
+                            <span>Giáo viên:</span>
+                            <span className="bold">cô Vân</span>
                           </p>
                           <p>
-                            <span>Room:</span>
+                            <span> Phòng:</span>
                             <span className="bold">40G</span>
                           </p>
-                          <p>
-                            <span>Level:</span>
-                            <span className="bold">All Levels</span>
-                          </p>
+                          
                         </li>
                         <li className="bg7"></li>
                         <li className="bg5">
-                          <p className="bold">ICT Learning</p>
+                          <p className="bold">Tạo hình</p>
                           <p>07.30 - 08.15</p>
                           <p>
-                            <span>Teacher:</span>
-                            <span className="bold">Michel</span>
+                            <span>Giáo viên:</span>
+                            <span className="bold">cô Vân</span>
                           </p>
                           <p>
-                            <span>Room:</span>
+                            <span> Phòng:</span>
                             <span className="bold">40G</span>
                           </p>
-                          <p>
-                            <span>Level:</span>
-                            <span className="bold">All Levels</span>
-                          </p>
+                          
                         </li>
                         <li className="bg7"></li>
                         <li className="bg1">
-                          <p className="bold">Mathematics</p>
+                          <p className="bold">Nhận biết tập nói</p>
                           <p>07.30 - 08.15</p>
                           <p>
-                            <span>Teacher:</span>
-                            <span className="bold">Michel</span>
+                            <span>Giáo viên:</span>
+                            <span className="bold">cô Vân</span>
                           </p>
                           <p>
-                            <span>Room:</span>
+                            <span> Phòng:</span>
                             <span className="bold">40G</span>
                           </p>
-                          <p>
-                            <span>Level:</span>
-                            <span className="bold">All Levels</span>
-                          </p>
+                          
                         </li>
                         <li className="bg6">
-                          <p className="bold">Language</p>
+                          <p className="bold">Toán</p>
                           <p>07.30 - 08.15</p>
                           <p>
-                            <span>Teacher:</span>
-                            <span className="bold">Michel</span>
+                            <span>Giáo viên:</span>
+                            <span className="bold">cô Vân</span>
                           </p>
                           <p>
-                            <span>Room:</span>
+                            <span> Phòng:</span>
                             <span className="bold">40G</span>
                           </p>
-                          <p>
-                            <span>Level:</span>
-                            <span className="bold">All Levels</span>
-                          </p>
+                          
                         </li>
                         <li className="bg3">
-                          <p className="bold">Computer</p>
+                          <p className="bold">Thể dục</p>
                           <p>07.30 - 08.15</p>
                           <p>
-                            <span>Teacher:</span>
-                            <span className="bold">Michel</span>
+                            <span>Giáo viên:</span>
+                            <span className="bold">cô Vân</span>
                           </p>
                           <p>
-                            <span>Room:</span>
+                            <span> Phòng:</span>
                             <span className="bold">40G</span>
                           </p>
-                          <p>
-                            <span>Level:</span>
-                            <span className="bold">All Levels</span>
-                          </p>
+                          
                         </li>
                         <li className="bg4">
-                          <p className="bold">Magic English</p>
+                          <p className="bold">Khám phá văn học</p>
                           <p>07.30 - 08.15</p>
                           <p>
-                            <span>Teacher:</span>
-                            <span className="bold">Michel</span>
+                            <span>Giáo viên:</span>
+                            <span className="bold">cô Vân</span>
                           </p>
                           <p>
-                            <span>Room:</span>
+                            <span> Phòng:</span>
                             <span className="bold">40G</span>
                           </p>
-                          <p>
-                            <span>Level:</span>
-                            <span className="bold">All Levels</span>
-                          </p>
+                          
                         </li>
                         <li className="bg2">
-                          <p className="bold">Arts &amp; Drawing</p>
+                          <p className="bold">Âm nhạc</p>
                           <p>07.30 - 08.15</p>
                           <p>
-                            <span>Teacher:</span>
-                            <span className="bold">Michel</span>
+                            <span>Giáo viên:</span>
+                            <span className="bold">cô Vân</span>
                           </p>
                           <p>
-                            <span>Room:</span>
+                            <span> Phòng:</span>
                             <span className="bold">40G</span>
                           </p>
-                          <p>
-                            <span>Level:</span>
-                            <span className="bold">All Levels</span>
-                          </p>
+                          
                         </li>
                         <li className="bg1">
-                          <p className="bold">Mathematics</p>
+                          <p className="bold">Nhận biết tập nói</p>
                           <p>07.30 - 08.15</p>
                           <p>
-                            <span>Teacher:</span>
-                            <span className="bold">Michel</span>
+                            <span>Giáo viên:</span>
+                            <span className="bold">cô Vân</span>
                           </p>
                           <p>
-                            <span>Room:</span>
+                            <span> Phòng:</span>
                             <span className="bold">40G</span>
                           </p>
-                          <p>
-                            <span>Level:</span>
-                            <span className="bold">All Levels</span>
-                          </p>
+                          
                         </li>
                         <li className="bg7"></li>
                         <li className="bg3">
-                          <p className="bold">Computer</p>
+                          <p className="bold">Thể dục</p>
                           <p>07.30 - 08.15</p>
                           <p>
-                            <span>Teacher:</span>
-                            <span className="bold">Michel</span>
+                            <span>Giáo viên:</span>
+                            <span className="bold">cô Vân</span>
                           </p>
                           <p>
-                            <span>Room:</span>
+                            <span> Phòng:</span>
                             <span className="bold">40G</span>
                           </p>
-                          <p>
-                            <span>Level:</span>
-                            <span className="bold">All Levels</span>
-                          </p>
+                          
                         </li>
                         <li className="bg7"></li>
                         <li className="bg5">
-                          <p className="bold">ICT Learning</p>
+                          <p className="bold">Tạo hình</p>
                           <p>07.30 - 08.15</p>
                           <p>
-                            <span>Teacher:</span>
-                            <span className="bold">Michel</span>
+                            <span>Giáo viên:</span>
+                            <span className="bold">cô Vân</span>
                           </p>
                           <p>
-                            <span>Room:</span>
+                            <span> Phòng:</span>
                             <span className="bold">40G</span>
                           </p>
-                          <p>
-                            <span>Level:</span>
-                            <span className="bold">All Levels</span>
-                          </p>
+                          
                         </li>
                         <li className="bg6">
-                          <p className="bold">Language</p>
+                          <p className="bold">Toán</p>
                           <p>07.30 - 08.15</p>
                           <p>
-                            <span>Teacher:</span>
-                            <span className="bold">Michel</span>
+                            <span>Giáo viên:</span>
+                            <span className="bold">cô Vân</span>
                           </p>
                           <p>
-                            <span>Room:</span>
+                            <span> Phòng:</span>
                             <span className="bold">40G</span>
                           </p>
-                          <p>
-                            <span>Level:</span>
-                            <span className="bold">All Levels</span>
-                          </p>
+                          
                         </li>
                         <li className="bg7"></li>
                         <li className="bg5">
-                          <p className="bold">ICT Learning</p>
+                          <p className="bold">Tạo hình</p>
                           <p>07.30 - 08.15</p>
                           <p>
-                            <span>Teacher:</span>
-                            <span className="bold">Michel</span>
+                            <span>Giáo viên:</span>
+                            <span className="bold">cô Vân</span>
                           </p>
                           <p>
-                            <span>Room:</span>
+                            <span> Phòng:</span>
                             <span className="bold">40G</span>
                           </p>
-                          <p>
-                            <span>Level:</span>
-                            <span className="bold">All Levels</span>
-                          </p>
+                          
                         </li>
                         <li className="bg6">
-                          <p className="bold">Language</p>
+                          <p className="bold">Toán</p>
                           <p>07.30 - 08.15</p>
                           <p>
-                            <span>Teacher:</span>
-                            <span className="bold">Michel</span>
+                            <span>Giáo viên:</span>
+                            <span className="bold">cô Vân</span>
                           </p>
                           <p>
-                            <span>Room:</span>
+                            <span> Phòng:</span>
                             <span className="bold">40G</span>
                           </p>
-                          <p>
-                            <span>Level:</span>
-                            <span className="bold">All Levels</span>
-                          </p>
+                          
                         </li>
                         <li className="bg7"></li>
                         <li className="bg1">
-                          <p className="bold">Mathematics</p>
+                          <p className="bold">Nhận biết tập nói</p>
                           <p>07.30 - 08.15</p>
                           <p>
-                            <span>Teacher:</span>
-                            <span className="bold">Michel</span>
+                            <span>Giáo viên:</span>
+                            <span className="bold">cô Vân</span>
                           </p>
                           <p>
-                            <span>Room:</span>
+                            <span> Phòng:</span>
                             <span className="bold">40G</span>
                           </p>
-                          <p>
-                            <span>Level:</span>
-                            <span className="bold">All Levels</span>
-                          </p>
+                          
                         </li>
                         <li className="bg7"></li>
                         <li className="bg4">
-                          <p className="bold">Magic English</p>
+                          <p className="bold">Khám phá văn học</p>
                           <p>07.30 - 08.15</p>
                           <p>
-                            <span>Teacher:</span>
-                            <span className="bold">Michel</span>
+                            <span>Giáo viên:</span>
+                            <span className="bold">cô Vân</span>
                           </p>
                           <p>
-                            <span>Room:</span>
+                            <span> Phòng:</span>
                             <span className="bold">40G</span>
                           </p>
-                          <p>
-                            <span>Level:</span>
-                            <span className="bold">All Levels</span>
-                          </p>
+                          
                         </li>
                         <li className="bg2">
-                          <p className="bold">Arts &amp; Drawing</p>
+                          <p className="bold">Âm nhạc</p>
                           <p>07.30 - 08.15</p>
                           <p>
-                            <span>Teacher:</span>
-                            <span className="bold">Michel</span>
+                            <span>Giáo viên:</span>
+                            <span className="bold">cô Vân</span>
                           </p>
                           <p>
-                            <span>Room:</span>
+                            <span> Phòng:</span>
                             <span className="bold">40G</span>
                           </p>
-                          <p>
-                            <span>Level:</span>
-                            <span className="bold">All Levels</span>
-                          </p>
+                          
                         </li>
                         <li className="bg7"></li>
                         <li className="bg1">
-                          <p className="bold">Mathematics</p>
+                          <p className="bold">Nhận biết tập nói</p>
                           <p>07.30 - 08.15</p>
                           <p>
-                            <span>Teacher:</span>
-                            <span className="bold">Michel</span>
+                            <span>Giáo viên:</span>
+                            <span className="bold">cô Vân</span>
                           </p>
                           <p>
-                            <span>Room:</span>
+                            <span> Phòng:</span>
                             <span className="bold">40G</span>
                           </p>
-                          <p>
-                            <span>Level:</span>
-                            <span className="bold">All Levels</span>
-                          </p>
+                          
                         </li>
                         <li className="bg2">
-                          <p className="bold">Arts &amp; Drawing</p>
+                          <p className="bold">Âm nhạc</p>
                           <p>07.30 - 08.15</p>
                           <p>
-                            <span>Teacher:</span>
-                            <span className="bold">Michel</span>
+                            <span>Giáo viên:</span>
+                            <span className="bold">cô Vân</span>
                           </p>
                           <p>
-                            <span>Room:</span>
+                            <span> Phòng:</span>
                             <span className="bold">40G</span>
                           </p>
-                          <p>
-                            <span>Level:</span>
-                            <span className="bold">All Levels</span>
-                          </p>
+                          
                         </li>
                         <li className="bg3">
-                          <p className="bold">Computer</p>
+                          <p className="bold">Thể dục</p>
                           <p>07.30 - 08.15</p>
                           <p>
-                            <span>Teacher:</span>
-                            <span className="bold">Michel</span>
+                            <span>Giáo viên:</span>
+                            <span className="bold">cô Vân</span>
                           </p>
                           <p>
-                            <span>Room:</span>
+                            <span> Phòng:</span>
                             <span className="bold">40G</span>
                           </p>
-                          <p>
-                            <span>Level:</span>
-                            <span className="bold">All Levels</span>
-                          </p>
+                          
                         </li>
                         <li className="bg4">
-                          <p className="bold">Magic English</p>
+                          <p className="bold">Khám phá văn học</p>
                           <p>07.30 - 08.15</p>
                           <p>
-                            <span>Teacher:</span>
-                            <span className="bold">Michel</span>
+                            <span>Giáo viên:</span>
+                            <span className="bold">cô Vân</span>
                           </p>
                           <p>
-                            <span>Room:</span>
+                            <span> Phòng:</span>
                             <span className="bold">40G</span>
                           </p>
-                          <p>
-                            <span>Level:</span>
-                            <span className="bold">All Levels</span>
-                          </p>
+                          
                         </li>
                         <li className="bg5">
-                          <p className="bold">ICT Learning</p>
+                          <p className="bold">Tạo hình</p>
                           <p>07.30 - 08.15</p>
                           <p>
-                            <span>Teacher:</span>
-                            <span className="bold">Michel</span>
+                            <span>Giáo viên:</span>
+                            <span className="bold">cô Vân</span>
                           </p>
                           <p>
-                            <span>Room:</span>
+                            <span> Phòng:</span>
                             <span className="bold">40G</span>
                           </p>
-                          <p>
-                            <span>Level:</span>
-                            <span className="bold">All Levels</span>
-                          </p>
+                          
                         </li>
                         <li className="bg6">
-                          <p className="bold">Language</p>
+                          <p className="bold">Toán</p>
                           <p>07.30 - 08.15</p>
                           <p>
-                            <span>Teacher:</span>
-                            <span className="bold">Michel</span>
+                            <span>Giáo viên:</span>
+                            <span className="bold">cô Vân</span>
                           </p>
                           <p>
-                            <span>Room:</span>
+                            <span> Phòng:</span>
                             <span className="bold">40G</span>
                           </p>
-                          <p>
-                            <span>Level:</span>
-                            <span className="bold">All Levels</span>
-                          </p>
+                          
                         </li>
                       </ul>
                     </Tab.Pane>
@@ -2408,444 +2037,363 @@ const TimeTable = () => {
                       </ul>
                       <ul className="calendar-box fx">
                         <li className="bg1">
-                          <p className="bold">Mathematics</p>
+                          <p className="bold">Nhận biết tập nói</p>
                           <p>07.30 - 08.15</p>
                           <p>
-                            <span>Teacher:</span>
-                            <span className="bold">Michel</span>
+                            <span>Giáo viên:</span>
+                            <span className="bold">cô Vân</span>
                           </p>
                           <p>
-                            <span>Room:</span>
+                            <span> Phòng:</span>
                             <span className="bold">40G</span>
                           </p>
-                          <p>
-                            <span>Level:</span>
-                            <span className="bold">All Levels</span>
-                          </p>
+                          
                         </li>
                         <li className="bg2">
-                          <p className="bold">Arts &amp; Drawing</p>
+                          <p className="bold">Âm nhạc</p>
                           <p>07.30 - 08.15</p>
                           <p>
-                            <span>Teacher:</span>
-                            <span className="bold">Michel</span>
+                            <span>Giáo viên:</span>
+                            <span className="bold">cô Vân</span>
                           </p>
                           <p>
-                            <span>Room:</span>
+                            <span> Phòng:</span>
                             <span className="bold">40G</span>
                           </p>
-                          <p>
-                            <span>Level:</span>
-                            <span className="bold">All Levels</span>
-                          </p>
+                          
                         </li>
                         <li className="bg3">
-                          <p className="bold">Computer</p>
+                          <p className="bold">Thể dục</p>
                           <p>07.30 - 08.15</p>
                           <p>
-                            <span>Teacher:</span>
-                            <span className="bold">Michel</span>
+                            <span>Giáo viên:</span>
+                            <span className="bold">cô Vân</span>
                           </p>
                           <p>
-                            <span>Room:</span>
+                            <span> Phòng:</span>
                             <span className="bold">40G</span>
                           </p>
-                          <p>
-                            <span>Level:</span>
-                            <span className="bold">All Levels</span>
-                          </p>
+                          
                         </li>
                         <li className="bg4">
-                          <p className="bold">Magic English</p>
+                          <p className="bold">Khám phá văn học</p>
                           <p>07.30 - 08.15</p>
                           <p>
-                            <span>Teacher:</span>
-                            <span className="bold">Michel</span>
+                            <span>Giáo viên:</span>
+                            <span className="bold">cô Vân</span>
                           </p>
                           <p>
-                            <span>Room:</span>
+                            <span> Phòng:</span>
                             <span className="bold">40G</span>
                           </p>
-                          <p>
-                            <span>Level:</span>
-                            <span className="bold">All Levels</span>
-                          </p>
+                          
                         </li>
                         <li className="bg5">
-                          <p className="bold">ICT Learning</p>
+                          <p className="bold">Tạo hình</p>
                           <p>07.30 - 08.15</p>
                           <p>
-                            <span>Teacher:</span>
-                            <span className="bold">Michel</span>
+                            <span>Giáo viên:</span>
+                            <span className="bold">cô Vân</span>
                           </p>
                           <p>
-                            <span>Room:</span>
+                            <span> Phòng:</span>
                             <span className="bold">40G</span>
                           </p>
-                          <p>
-                            <span>Level:</span>
-                            <span className="bold">All Levels</span>
-                          </p>
+                          
                         </li>
                         <li className="bg6">
-                          <p className="bold">Language</p>
+                          <p className="bold">Toán</p>
                           <p>07.30 - 08.15</p>
                           <p>
-                            <span>Teacher:</span>
-                            <span className="bold">Michel</span>
+                            <span>Giáo viên:</span>
+                            <span className="bold">cô Vân</span>
                           </p>
                           <p>
-                            <span>Room:</span>
+                            <span> Phòng:</span>
                             <span className="bold">40G</span>
                           </p>
-                          <p>
-                            <span>Level:</span>
-                            <span className="bold">All Levels</span>
-                          </p>
+                          
                         </li>
                         <li className="bg7"></li>
                         <li className="bg5">
-                          <p className="bold">ICT Learning</p>
+                          <p className="bold">Tạo hình</p>
                           <p>07.30 - 08.15</p>
                           <p>
-                            <span>Teacher:</span>
-                            <span className="bold">Michel</span>
+                            <span>Giáo viên:</span>
+                            <span className="bold">cô Vân</span>
                           </p>
                           <p>
-                            <span>Room:</span>
+                            <span> Phòng:</span>
                             <span className="bold">40G</span>
                           </p>
-                          <p>
-                            <span>Level:</span>
-                            <span className="bold">All Levels</span>
-                          </p>
+                          
                         </li>
                         <li className="bg7"></li>
                         <li className="bg1">
-                          <p className="bold">Mathematics</p>
+                          <p className="bold">Nhận biết tập nói</p>
                           <p>07.30 - 08.15</p>
                           <p>
-                            <span>Teacher:</span>
-                            <span className="bold">Michel</span>
+                            <span>Giáo viên:</span>
+                            <span className="bold">cô Vân</span>
                           </p>
                           <p>
-                            <span>Room:</span>
+                            <span> Phòng:</span>
                             <span className="bold">40G</span>
                           </p>
-                          <p>
-                            <span>Level:</span>
-                            <span className="bold">All Levels</span>
-                          </p>
+                          
                         </li>
                         <li className="bg6">
-                          <p className="bold">Language</p>
+                          <p className="bold">Toán</p>
                           <p>07.30 - 08.15</p>
                           <p>
-                            <span>Teacher:</span>
-                            <span className="bold">Michel</span>
+                            <span>Giáo viên:</span>
+                            <span className="bold">cô Vân</span>
                           </p>
                           <p>
-                            <span>Room:</span>
+                            <span> Phòng:</span>
                             <span className="bold">40G</span>
                           </p>
-                          <p>
-                            <span>Level:</span>
-                            <span className="bold">All Levels</span>
-                          </p>
+                          
                         </li>
                         <li className="bg3">
-                          <p className="bold">Computer</p>
+                          <p className="bold">Thể dục</p>
                           <p>07.30 - 08.15</p>
                           <p>
-                            <span>Teacher:</span>
-                            <span className="bold">Michel</span>
+                            <span>Giáo viên:</span>
+                            <span className="bold">cô Vân</span>
                           </p>
                           <p>
-                            <span>Room:</span>
+                            <span> Phòng:</span>
                             <span className="bold">40G</span>
                           </p>
-                          <p>
-                            <span>Level:</span>
-                            <span className="bold">All Levels</span>
-                          </p>
+                          
                         </li>
                         <li className="bg4">
-                          <p className="bold">Magic English</p>
+                          <p className="bold">Khám phá văn học</p>
                           <p>07.30 - 08.15</p>
                           <p>
-                            <span>Teacher:</span>
-                            <span className="bold">Michel</span>
+                            <span>Giáo viên:</span>
+                            <span className="bold">cô Vân</span>
                           </p>
                           <p>
-                            <span>Room:</span>
+                            <span> Phòng:</span>
                             <span className="bold">40G</span>
                           </p>
-                          <p>
-                            <span>Level:</span>
-                            <span className="bold">All Levels</span>
-                          </p>
+                          
                         </li>
                         <li className="bg2">
-                          <p className="bold">Arts &amp; Drawing</p>
+                          <p className="bold">Âm nhạc</p>
                           <p>07.30 - 08.15</p>
                           <p>
-                            <span>Teacher:</span>
-                            <span className="bold">Michel</span>
+                            <span>Giáo viên:</span>
+                            <span className="bold">cô Vân</span>
                           </p>
                           <p>
-                            <span>Room:</span>
+                            <span> Phòng:</span>
                             <span className="bold">40G</span>
                           </p>
-                          <p>
-                            <span>Level:</span>
-                            <span className="bold">All Levels</span>
-                          </p>
+                          
                         </li>
                         <li className="bg1">
-                          <p className="bold">Mathematics</p>
+                          <p className="bold">Nhận biết tập nói</p>
                           <p>07.30 - 08.15</p>
                           <p>
-                            <span>Teacher:</span>
-                            <span className="bold">Michel</span>
+                            <span>Giáo viên:</span>
+                            <span className="bold">cô Vân</span>
                           </p>
                           <p>
-                            <span>Room:</span>
+                            <span> Phòng:</span>
                             <span className="bold">40G</span>
                           </p>
-                          <p>
-                            <span>Level:</span>
-                            <span className="bold">All Levels</span>
-                          </p>
+                          
                         </li>
                         <li className="bg7"></li>
                         <li className="bg3">
-                          <p className="bold">Computer</p>
+                          <p className="bold">Thể dục</p>
                           <p>07.30 - 08.15</p>
                           <p>
-                            <span>Teacher:</span>
-                            <span className="bold">Michel</span>
+                            <span>Giáo viên:</span>
+                            <span className="bold">cô Vân</span>
                           </p>
                           <p>
-                            <span>Room:</span>
+                            <span> Phòng:</span>
                             <span className="bold">40G</span>
                           </p>
-                          <p>
-                            <span>Level:</span>
-                            <span className="bold">All Levels</span>
-                          </p>
+                          
                         </li>
                         <li className="bg7"></li>
                         <li className="bg5">
-                          <p className="bold">ICT Learning</p>
+                          <p className="bold">Tạo hình</p>
                           <p>07.30 - 08.15</p>
                           <p>
-                            <span>Teacher:</span>
-                            <span className="bold">Michel</span>
+                            <span>Giáo viên:</span>
+                            <span className="bold">cô Vân</span>
                           </p>
                           <p>
-                            <span>Room:</span>
+                            <span> Phòng:</span>
                             <span className="bold">40G</span>
                           </p>
-                          <p>
-                            <span>Level:</span>
-                            <span className="bold">All Levels</span>
-                          </p>
+                          
                         </li>
                         <li className="bg6">
-                          <p className="bold">Language</p>
+                          <p className="bold">Toán</p>
                           <p>07.30 - 08.15</p>
                           <p>
-                            <span>Teacher:</span>
-                            <span className="bold">Michel</span>
+                            <span>Giáo viên:</span>
+                            <span className="bold">cô Vân</span>
                           </p>
                           <p>
-                            <span>Room:</span>
+                            <span> Phòng:</span>
                             <span className="bold">40G</span>
                           </p>
-                          <p>
-                            <span>Level:</span>
-                            <span className="bold">All Levels</span>
-                          </p>
+                          
                         </li>
                         <li className="bg7"></li>
                         <li className="bg5">
-                          <p className="bold">ICT Learning</p>
+                          <p className="bold">Tạo hình</p>
                           <p>07.30 - 08.15</p>
                           <p>
-                            <span>Teacher:</span>
-                            <span className="bold">Michel</span>
+                            <span>Giáo viên:</span>
+                            <span className="bold">cô Vân</span>
                           </p>
                           <p>
-                            <span>Room:</span>
+                            <span> Phòng:</span>
                             <span className="bold">40G</span>
                           </p>
-                          <p>
-                            <span>Level:</span>
-                            <span className="bold">All Levels</span>
-                          </p>
+                          
                         </li>
                         <li className="bg6">
-                          <p className="bold">Language</p>
+                          <p className="bold">Toán</p>
                           <p>07.30 - 08.15</p>
                           <p>
-                            <span>Teacher:</span>
-                            <span className="bold">Michel</span>
+                            <span>Giáo viên:</span>
+                            <span className="bold">cô Vân</span>
                           </p>
                           <p>
-                            <span>Room:</span>
+                            <span> Phòng:</span>
                             <span className="bold">40G</span>
                           </p>
-                          <p>
-                            <span>Level:</span>
-                            <span className="bold">All Levels</span>
-                          </p>
+                          
                         </li>
                         <li className="bg7"></li>
                         <li className="bg1">
-                          <p className="bold">Mathematics</p>
+                          <p className="bold">Nhận biết tập nói</p>
                           <p>07.30 - 08.15</p>
                           <p>
-                            <span>Teacher:</span>
-                            <span className="bold">Michel</span>
+                            <span>Giáo viên:</span>
+                            <span className="bold">cô Vân</span>
                           </p>
                           <p>
-                            <span>Room:</span>
+                            <span> Phòng:</span>
                             <span className="bold">40G</span>
                           </p>
-                          <p>
-                            <span>Level:</span>
-                            <span className="bold">All Levels</span>
-                          </p>
+                          
                         </li>
                         <li className="bg7"></li>
                         <li className="bg4">
-                          <p className="bold">Magic English</p>
+                          <p className="bold">Khám phá văn học</p>
                           <p>07.30 - 08.15</p>
                           <p>
-                            <span>Teacher:</span>
-                            <span className="bold">Michel</span>
+                            <span>Giáo viên:</span>
+                            <span className="bold">cô Vân</span>
                           </p>
                           <p>
-                            <span>Room:</span>
+                            <span> Phòng:</span>
                             <span className="bold">40G</span>
                           </p>
-                          <p>
-                            <span>Level:</span>
-                            <span className="bold">All Levels</span>
-                          </p>
+                          
                         </li>
                         <li className="bg2">
-                          <p className="bold">Arts &amp; Drawing</p>
+                          <p className="bold">Âm nhạc</p>
                           <p>07.30 - 08.15</p>
                           <p>
-                            <span>Teacher:</span>
-                            <span className="bold">Michel</span>
+                            <span>Giáo viên:</span>
+                            <span className="bold">cô Vân</span>
                           </p>
                           <p>
-                            <span>Room:</span>
+                            <span> Phòng:</span>
                             <span className="bold">40G</span>
                           </p>
-                          <p>
-                            <span>Level:</span>
-                            <span className="bold">All Levels</span>
-                          </p>
+                          
                         </li>
                         <li className="bg7"></li>
                         <li className="bg1">
-                          <p className="bold">Mathematics</p>
+                          <p className="bold">Nhận biết tập nói</p>
                           <p>07.30 - 08.15</p>
                           <p>
-                            <span>Teacher:</span>
-                            <span className="bold">Michel</span>
+                            <span>Giáo viên:</span>
+                            <span className="bold">cô Vân</span>
                           </p>
                           <p>
-                            <span>Room:</span>
+                            <span> Phòng:</span>
                             <span className="bold">40G</span>
                           </p>
-                          <p>
-                            <span>Level:</span>
-                            <span className="bold">All Levels</span>
-                          </p>
+                          
                         </li>
                         <li className="bg2">
-                          <p className="bold">Arts &amp; Drawing</p>
+                          <p className="bold">Âm nhạc</p>
                           <p>07.30 - 08.15</p>
                           <p>
-                            <span>Teacher:</span>
-                            <span className="bold">Michel</span>
+                            <span>Giáo viên:</span>
+                            <span className="bold">cô Vân</span>
                           </p>
                           <p>
-                            <span>Room:</span>
+                            <span> Phòng:</span>
                             <span className="bold">40G</span>
                           </p>
-                          <p>
-                            <span>Level:</span>
-                            <span className="bold">All Levels</span>
-                          </p>
+                          
                         </li>
                         <li className="bg3">
-                          <p className="bold">Computer</p>
+                          <p className="bold">Thể dục</p>
                           <p>07.30 - 08.15</p>
                           <p>
-                            <span>Teacher:</span>
-                            <span className="bold">Michel</span>
+                            <span>Giáo viên:</span>
+                            <span className="bold">cô Vân</span>
                           </p>
                           <p>
-                            <span>Room:</span>
+                            <span> Phòng:</span>
                             <span className="bold">40G</span>
                           </p>
-                          <p>
-                            <span>Level:</span>
-                            <span className="bold">All Levels</span>
-                          </p>
+                          
                         </li>
                         <li className="bg4">
-                          <p className="bold">Magic English</p>
+                          <p className="bold">Khám phá văn học</p>
                           <p>07.30 - 08.15</p>
                           <p>
-                            <span>Teacher:</span>
-                            <span className="bold">Michel</span>
+                            <span>Giáo viên:</span>
+                            <span className="bold">cô Vân</span>
                           </p>
                           <p>
-                            <span>Room:</span>
+                            <span> Phòng:</span>
                             <span className="bold">40G</span>
                           </p>
-                          <p>
-                            <span>Level:</span>
-                            <span className="bold">All Levels</span>
-                          </p>
+                          
                         </li>
                         <li className="bg5">
-                          <p className="bold">ICT Learning</p>
+                          <p className="bold">Tạo hình</p>
                           <p>07.30 - 08.15</p>
                           <p>
-                            <span>Teacher:</span>
-                            <span className="bold">Michel</span>
+                            <span>Giáo viên:</span>
+                            <span className="bold">cô Vân</span>
                           </p>
                           <p>
-                            <span>Room:</span>
+                            <span> Phòng:</span>
                             <span className="bold">40G</span>
                           </p>
-                          <p>
-                            <span>Level:</span>
-                            <span className="bold">All Levels</span>
-                          </p>
+                          
                         </li>
                         <li className="bg6">
-                          <p className="bold">Language</p>
+                          <p className="bold">Toán</p>
                           <p>07.30 - 08.15</p>
                           <p>
-                            <span>Teacher:</span>
-                            <span className="bold">Michel</span>
+                            <span>Giáo viên:</span>
+                            <span className="bold">cô Vân</span>
                           </p>
                           <p>
-                            <span>Room:</span>
+                            <span> Phòng:</span>
                             <span className="bold">40G</span>
                           </p>
-                          <p>
-                            <span>Level:</span>
-                            <span className="bold">All Levels</span>
-                          </p>
+                          
                         </li>
                       </ul>
                     </Tab.Pane>

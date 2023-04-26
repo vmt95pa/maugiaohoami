@@ -4,9 +4,10 @@ import PageBanner from "../src/components/PageBanner";
 import PagginationFuntion from "../src/components/PagginationFuntion";
 import Layout from "../src/layouts/Layout";
 import { getPagination, pagination } from "../src/utils";
-import { requestEvent } from "../src/redux/action";
+import { requestEvent } from "../src/redux/action/eventAction";
 import { useSelector, useDispatch } from "react-redux";
-import data from "../src/data/event.json";
+import data from "../database.json";
+
 const Events = () => {
   let sort = 3;
   const [active, setActive] = useState(1);
@@ -16,12 +17,13 @@ const Events = () => {
     let list = document.querySelectorAll(".sc-event-box");
     setstate(getPagination(list.length, sort));
   }, [active]);
-  const { eventData } = useSelector((state) => state);
+  const eventState = useSelector((state) => state.eventReducer);
   const dispatch = useDispatch();
-
+  const { eventData } = eventState;
   useEffect(() => {
     dispatch(requestEvent(data));
   }, []);
+
   return (
     <Layout bodyClass={"pricing"}>
       <PageBanner pageName={"Thông báo"} />
@@ -35,6 +37,7 @@ const Events = () => {
                     className="sc-event-box active fx wow fadeIn animated"
                     data-wow-delay="0.3ms"
                     data-wow-duration="1000ms"
+                    key={event.id}
                   >
                     <div className="image">
                       <img src={event.image} alt="" />
@@ -85,7 +88,9 @@ const Events = () => {
             </div>
           </div>
         </div>
+
       </section>
+
     </Layout>
   );
 };

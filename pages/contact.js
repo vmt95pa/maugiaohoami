@@ -34,8 +34,6 @@ const Contact = () => {
                 <div className="content">
                   <h4>Hỗ trợ thông tin</h4>
                   <p className="desc">
-                    Edipiscin elitsed eiusmod incididunt dolore magna
-                    suspendisse
                   </p>
                   <a href="#" className="fl-btn st-5">
                     <span className="inner">Contact Us</span>
@@ -55,8 +53,6 @@ const Contact = () => {
                 <div className="content">
                   <h4>Cập nhật tin tức</h4>
                   <p className="desc">
-                    Edipiscin elitsed eiusmod incididunt dolore magna
-                    suspendisse
                   </p>
                   <a href="#" className="fl-btn st-5">
                     <span className="inner">Contact Us</span>
@@ -76,8 +72,6 @@ const Contact = () => {
                 <div className="content">
                   <h4>Tin tức & Sự kiện</h4>
                   <p className="desc">
-                    Edipiscin elitsed eiusmod incididunt dolore magna
-                    suspendisse
                   </p>
                   <a href="#" className="fl-btn st-5">
                     <span className="inner">Contact Us</span>
@@ -218,7 +212,7 @@ const Contact = () => {
                     <fieldset className="name">
                       <input
                         type="text"
-                        placeholder="Họ tên"
+                        placeholder="Tên quý phụ huynh"
                         required=""
                         name="name"
                         className="name"
@@ -238,7 +232,7 @@ const Contact = () => {
                     <fieldset className="phone">
                       <input
                         type="number"
-                        placeholder="Điện thoại"
+                        placeholder="Điện thoại liên hệ"
                         required=""
                         name="number"
                         className="number"
@@ -261,7 +255,7 @@ const Contact = () => {
                     </fieldset>
                     <fieldset className="message">
                       <textarea
-                        placeholder="Nội dung tin nhắn"
+                        placeholder="Câu hỏi của quý phụ huynh cho trường ... "
                         rows={5}
                         tabIndex={4}
                         name="messagewr2"

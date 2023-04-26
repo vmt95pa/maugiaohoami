@@ -46,65 +46,18 @@ const About = () => {
                 <div className="image p-l70">
                   <img src="assets/images/common/sc-about3.jpg" alt="Images" />
                 </div>
-                <div
-                  className="box-parents wow fadeInUp animated"
-                  data-wow-delay="0.3ms"
-                  data-wow-duration="1200ms"
-                >
-                  <h5 className="clr-pri-2 title">
-                    <span className="clr-pri-3">25638+</span>Parents Say About
-                    Our School
-                  </h5>
-                  <ul className="fx">
-                    <li>
-                      <img
-                        src="assets/images/thumbnails/list-quote-5.jpg"
-                        alt="Image"
-                      />
-                    </li>
-                    <li>
-                      <img
-                        src="assets/images/thumbnails/list-quote-1.jpg"
-                        alt="Image"
-                      />
-                    </li>
-                    <li>
-                      <img
-                        src="assets/images/thumbnails/list-quote-2.jpg"
-                        alt="Image"
-                      />
-                    </li>
-                    <li>
-                      <img
-                        src="assets/images/thumbnails/list-quote-3.jpg"
-                        alt="Image"
-                      />
-                    </li>
-                    <li>
-                      <img
-                        src="assets/images/thumbnails/list-quote-4.jpg"
-                        alt="Image"
-                      />
-                    </li>
-                    <li>
-                      <img
-                        src="assets/images/thumbnails/list-quote-6.jpg"
-                        alt="Image"
-                      />
-                    </li>
-                  </ul>
-                </div>
+
               </div>
             </div>
             <div className="col-xl-5 col-lg-5 col-md-12 col-12">
               <div className="sc-about-2 p-t19">
                 <div className="title-heading">
                   <div className="sub-heading clr-pri-3 f-mulish">
-                    <span className="inner-sub st-2">About Us</span>
+                    <span className="inner-sub st-2">Giới thiệu</span>
                     <RightArrow />
                   </div>
                   <h2 className="title clr-pri-2">
-                    We Learn Smart Way To Build Bright Futute
+                    Chúng Tôi Sử Dụng Các Phương Pháp Thông Minh Để Xây Dựng Tương Lai Tươi Sáng Cho Con Bạn
                   </h2>
                 </div>
                 <div className="inner">
@@ -113,35 +66,32 @@ const About = () => {
                     data-wow-delay="0.3ms"
                     data-wow-duration="1000ms"
                   >
-                    Amet consectetur adipiscin elitsed eiusmod tempor incididunt
-                    labore et dolore magna aliqua. Quis ipsum suspendisse
-                    ultrices gravida. Risus commodo maecenas accumsan
+                    Theo Tổ chức Giáo dục, Khoa học và Văn hóa của Liên Hợp Quốc UNESCO, giáo dục sớm là chiến lược đào tạo kiến thức và kỹ năng dành cho trẻ em từ 0 - 8 tuổi. Đây là giai đoạn phát triển vượt trội của não bộ nên giáo dục sớm đúng cách giúp trẻ nâng cao năng lực trí tuệ, điều chỉnh hành vi và cảm xúc, cũng như hình thành nhân cách cơ bản, từ đó đặt nền tảng vững chắc, giúp con xây dựng tương lai tươi sáng.
                   </p>
                   <h4 className="title-line">
-                    Most Successful Results Institute For kindergarten Since
-                    2021
+                    Một trong những trường mầm non đứng đầu huyện Krông Pắc năm 2022
                   </h4>
                   <ul>
                     <li className="st-1 fx">
                       <i className="fas fa-check" />
-                      <p className="clr-pri-2">Outdoor Games</p>
+                      <p className="clr-pri-2">Hoạt động ngoài trời</p>
                     </li>
                     <li className="st-2 fx">
                       <i className="fas fa-check" />
-                      <p className="clr-pri-2">Sport Activites</p>
+                      <p className="clr-pri-2">Thể dục & thể thao</p>
                     </li>
                     <li className="st-3 fx">
                       <i className="fas fa-check" />
-                      <p className="clr-pri-2">Nutritious Foods</p>
+                      <p className="clr-pri-2">Thực đơn bổ dưỡng</p>
                     </li>
                     <li className="st-4 fx">
                       <i className="fas fa-check" />
-                      <p className="clr-pri-2">Event &amp; Party</p>
+                      <p className="clr-pri-2">Sự kiện & Tiệc</p>
                     </li>
                   </ul>
                   <Link href="/testimonials">
                     <a className="fl-btn st-11">
-                      <span className="inner">learn more Us</span>
+                      <span className="inner">Xem thêm</span>
                     </a>
                   </Link>
                 </div>
@@ -161,7 +111,7 @@ const About = () => {
                   <RightArrow />
                 </div>
                 <h2 className="title clr-pri-2">
-                  We Do Something Better For Bright Children Future Activities
+                  Chúng tôi luôn mang đến những gì tốt nhất cho <br /> tương lai của bé
                 </h2>
               </div>
             </div>
@@ -195,16 +145,15 @@ const About = () => {
                     <div className="box-content">
                       <h4 className="title">
                         <Link href="/classes">
-                          <a>Study &amp; Game</a>
+                          <a>Học tập & Trò chơi</a>
                         </Link>
                       </h4>
                       <p className="wrap f-mulish">
-                        Sed ut perspiciatis unde omnis iste natu voluptatem
-                        accus antium dolorem
+                        Giúp trẻ học tập một cách tự nhiên và có hứng thú hơn trong việc tiếp thu kiến thức mới.
                       </p>
                       <Link href="/classes">
                         <a className="fl-btn st-13">
-                          <span className="inner">read more</span>
+                          <span className="inner">Xem thêm</span>
                         </a>
                       </Link>
                     </div>
@@ -235,16 +184,15 @@ const About = () => {
                     <div className="box-content">
                       <h4 className="title">
                         <Link href="/program">
-                          <a>Event &amp; Programs</a>
+                          <a>Chương trình từ <br/> A - Z</a>
                         </Link>
                       </h4>
                       <p className="wrap f-mulish">
-                        Sed ut perspiciatis unde omnis iste natu voluptatem
-                        accus antium dolorem
+                        Giúp trẻ em phát triển về thể chất, tình cảm, trí tuệ, thẩm mĩ, hình thành những yếu tố đầu tiên của nhân cách.
                       </p>
                       <Link href="/program">
                         <a className="fl-btn st-13">
-                          <span className="inner">read more</span>
+                          <span className="inner">Xem thêm</span>
                         </a>
                       </Link>
                     </div>
@@ -277,16 +225,15 @@ const About = () => {
                     <div className="box-content">
                       <h4 className="title">
                         <Link href="/teacher">
-                          <a>Competitions</a>
+                          <a>Giáo viên chuyên nghiệp</a>
                         </Link>
                       </h4>
                       <p className="wrap f-mulish">
-                        Sed ut perspiciatis unde omnis iste natu voluptatem
-                        accus antium dolorem
+                        Đội ngũ giáo viên luôn được đào tạo đảm bảo chất lượng giáo viên đáp ứng đầy đủ yêu cầu theo tiêu chuẩn AMS.
                       </p>
                       <Link href="/teacher">
                         <a className="fl-btn st-13">
-                          <span className="inner">read more</span>
+                          <span className="inner">Xem thêm</span>
                         </a>
                       </Link>
                     </div>
@@ -320,16 +267,15 @@ const About = () => {
                     <div className="box-content">
                       <h4 className="title">
                         <Link href="/events">
-                          <a>Outdoor Games</a>
+                          <a>Sức khỏe, tâm lý</a>
                         </Link>
                       </h4>
                       <p className="wrap f-mulish">
-                        Sed ut perspiciatis unde omnis iste natu voluptatem
-                        accus antium dolorem
+                        Cung cấp thực đơn đầy đủ dinh dưỡng, chăm lo tâm lý trẻ, giúp trẻ phát triển một cách toàn diện nhất.
                       </p>
                       <Link href="/events">
                         <a className="fl-btn st-13">
-                          <span className="inner">read more</span>
+                          <span className="inner">Xem thêm</span>
                         </a>
                       </Link>
                     </div>
@@ -341,7 +287,7 @@ const About = () => {
         </div>
       </section>
       <TfCounter />
-    
+
     </Layout>
   );
 };
