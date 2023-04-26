@@ -1,12 +1,14 @@
 import axios from "axios";
 import { CLASSES } from "../actionTypes";
+import {API_URL} from "../../common/defines"
 
+const url = "/classes"
 export const requestClasses = (data) => async (dispatch) => {
     dispatch({
         type: CLASSES.LOAD
     });
     try {
-        const json = await axios.get("http://localhost:6969/classes");
+        const json = await axios.get(API_URL + url);
         console.log(json + "data");
         dispatch({
             type: CLASSES.LOAD_SUCCESS,
