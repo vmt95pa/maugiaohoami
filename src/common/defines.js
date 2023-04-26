@@ -1,1 +1,1 @@
-export const API_URL = "http://localhost:6969";
+export const API_URL = "https://organic-viet-coffee-server.vercel.app";

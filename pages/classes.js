@@ -7,7 +7,6 @@ import Layout from "../src/layouts/Layout";
 import { getPagination, pagination } from "../src/utils";
 import { requestClasses } from "../src/redux/action/classesAction";
 import { useSelector, useDispatch } from "react-redux";
-import data from "../database.json";
 const Classes = () => {
   let sort = 6;
   const [active, setActive] = useState(1);
@@ -22,7 +21,7 @@ const Classes = () => {
   const dispatch = useDispatch();
 
   useEffect(() => {
-    dispatch(requestClasses(data));
+    dispatch(requestClasses(classesData));
   }, []);
   return (
     <Layout bodyClass={"classes"}>
@@ -51,6 +50,7 @@ const Classes = () => {
                   className="item-courses wow fadeIn animated"
                   data-wow-delay="0.3ms"
                   data-wow-duration="1300ms"
+             
                 >
                   <div className="box-feature">
                     <img

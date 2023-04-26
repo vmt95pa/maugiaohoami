@@ -6,7 +6,6 @@ import Layout from "../src/layouts/Layout";
 import { getPagination, pagination } from "../src/utils";
 import { requestEvent } from "../src/redux/action/eventAction";
 import { useSelector, useDispatch } from "react-redux";
-import data from "../database.json";
 
 const Events = () => {
   let sort = 3;
@@ -21,7 +20,7 @@ const Events = () => {
   const dispatch = useDispatch();
   const { eventData } = eventState;
   useEffect(() => {
-    dispatch(requestEvent(data));
+    dispatch(requestEvent(eventData));
   }, []);
 
   return (
