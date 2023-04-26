@@ -468,28 +468,26 @@ const TimeTable = () => {
                       </ul>
                     </Tab.Pane>
                     <Tab.Pane eventKey={"2nd"} className="content-inner">
-                      <ul className="list-date fx">
+                    <ul className="list-date fx">
                         <li>
-                          <span>Saturday</span>
+                          <span>Thứ 2</span>
                         </li>
                         <li>
-                          <span>Sunday</span>
+                          <span>Thứ 3</span>
                         </li>
                         <li>
-                          <span>Monday</span>
+                          <span>Thứ 4</span>
                         </li>
                         <li>
-                          <span>Tuesday</span>
+                          <span>Thứ 5</span>
                         </li>
                         <li>
-                          <span>Wednesday</span>
+                          <span>Thứ 6</span>
                         </li>
                         <li>
-                          <span>Thursday</span>
+                          <span>Thứ 7</span>
                         </li>
-                        <li>
-                          <span>Friday</span>
-                        </li>
+                        
                       </ul>
                       <ul className="calendar-box fx">
                         <li className="bg1">
@@ -854,28 +852,26 @@ const TimeTable = () => {
                       </ul>
                     </Tab.Pane>
                     <Tab.Pane eventKey={"3rd"} className="content-inner">
-                      <ul className="list-date fx">
+                    <ul className="list-date fx">
                         <li>
-                          <span>Saturday</span>
+                          <span>Thứ 2</span>
                         </li>
                         <li>
-                          <span>Sunday</span>
+                          <span>Thứ 3</span>
                         </li>
                         <li>
-                          <span>Monday</span>
+                          <span>Thứ 4</span>
                         </li>
                         <li>
-                          <span>Tuesday</span>
+                          <span>Thứ 5</span>
                         </li>
                         <li>
-                          <span>Wednesday</span>
+                          <span>Thứ 6</span>
                         </li>
                         <li>
-                          <span>Thursday</span>
+                          <span>Thứ 7</span>
                         </li>
-                        <li>
-                          <span>Friday</span>
-                        </li>
+                        
                       </ul>
                       <ul className="calendar-box fx">
                         <li className="bg1">
@@ -1240,28 +1236,26 @@ const TimeTable = () => {
                       </ul>
                     </Tab.Pane>
                     <Tab.Pane eventKey={"4th"} className="content-inner">
-                      <ul className="list-date fx">
+                    <ul className="list-date fx">
                         <li>
-                          <span>Saturday</span>
+                          <span>Thứ 2</span>
                         </li>
                         <li>
-                          <span>Sunday</span>
+                          <span>Thứ 3</span>
                         </li>
                         <li>
-                          <span>Monday</span>
+                          <span>Thứ 4</span>
                         </li>
                         <li>
-                          <span>Tuesday</span>
+                          <span>Thứ 5</span>
                         </li>
                         <li>
-                          <span>Wednesday</span>
+                          <span>Thứ 6</span>
                         </li>
                         <li>
-                          <span>Thursday</span>
+                          <span>Thứ 7</span>
                         </li>
-                        <li>
-                          <span>Friday</span>
-                        </li>
+                        
                       </ul>
                       <ul className="calendar-box fx">
                         <li className="bg1">
@@ -1626,28 +1620,26 @@ const TimeTable = () => {
                       </ul>
                     </Tab.Pane>
                     <Tab.Pane eventKey={"5th"} className="content-inner">
-                      <ul className="list-date fx">
+                    <ul className="list-date fx">
                         <li>
-                          <span>Saturday</span>
+                          <span>Thứ 2</span>
                         </li>
                         <li>
-                          <span>Sunday</span>
+                          <span>Thứ 3</span>
                         </li>
                         <li>
-                          <span>Monday</span>
+                          <span>Thứ 4</span>
                         </li>
                         <li>
-                          <span>Tuesday</span>
+                          <span>Thứ 5</span>
                         </li>
                         <li>
-                          <span>Wednesday</span>
+                          <span>Thứ 6</span>
                         </li>
                         <li>
-                          <span>Thursday</span>
+                          <span>Thứ 7</span>
                         </li>
-                        <li>
-                          <span>Friday</span>
-                        </li>
+                        
                       </ul>
                       <ul className="calendar-box fx">
                         <li className="bg1">
@@ -2012,28 +2004,26 @@ const TimeTable = () => {
                       </ul>
                     </Tab.Pane>
                     <Tab.Pane eventKey={"6th"} className="content-inner">
-                      <ul className="list-date fx">
+                    <ul className="list-date fx">
                         <li>
-                          <span>Saturday</span>
+                          <span>Thứ 2</span>
                         </li>
                         <li>
-                          <span>Sunday</span>
+                          <span>Thứ 3</span>
                         </li>
                         <li>
-                          <span>Monday</span>
+                          <span>Thứ 4</span>
                         </li>
                         <li>
-                          <span>Tuesday</span>
+                          <span>Thứ 5</span>
                         </li>
                         <li>
-                          <span>Wednesday</span>
+                          <span>Thứ 6</span>
                         </li>
                         <li>
-                          <span>Thursday</span>
+                          <span>Thứ 7</span>
                         </li>
-                        <li>
-                          <span>Friday</span>
-                        </li>
+                        
                       </ul>
                       <ul className="calendar-box fx">
                         <li className="bg1">

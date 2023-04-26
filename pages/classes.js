@@ -61,7 +61,7 @@ const Classes = () => {
                   <div className="box-content">
                     <div className="box-wrap">
                       <h4 className="title">
-                        <Link href="/classe-details">
+                        <Link href="#">
                           <a>{classes.name_class}</a>
                         </Link>
                       </h4>
