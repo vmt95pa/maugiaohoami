@@ -88,7 +88,7 @@ const EventsDetails = () => {
                         xlinkHref="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAACYAAAAoCAYAAACSN4jeAAAFE0lEQVRYhb1Ya4iVVRRdo5aaWpNTyUw4qeWdybKyycymKIZSIyOLoiB6wETQayjKKOtHkEHWj4iSIoWyt5BkajpWzqRpj0EqR83sASNGlBplD5p0asW2dejMufvcueOPDizud/Za+3z7nu98++zzgeT/gVqSC0l28b/2I8l2kud79x+A/rUKAGP66fMAgI0ApgFoBXA5gEsAPAlgJIB2AOsAHNLLy4s2QQXJq0muJ/kXyZ9JDnV0Hl7X/HQ7XMBZJPcKg4PdEwY0k2wluU+DW2Cv6LrK0ad4TdrLSO4i+YGjiWF/+PNSgc0i+a0GNeFdJI8RN072ox2/GE9Id7hsNepvdLQBVdJclwusjeRvJIc73AVyPsrhAiZFC7w5so8l2eLoYywl+UsusFUk1zl2w6nJTHjYpMc+VdqnSQ5wdB4a5VPpkW+S7EhsBZKrNZN0fAKGi79C/avUn+BoPQwiuZ/kzHLSxQwA2wGMBrAEQBeAhUWqf9tE/a7V72IAw+RTTuuRZogX9askP9P1YP3jRRF/c4lZmyDuCIfzcCLJhyJ7g/xrUvEZeowr1D9Wwmr1h5D8ieTbzk3uJ/mD9Ic6vIeC9J+KeyT86SCezt6tVfaBJL8m+SvJ5VJ8p7UQfC0BvyzOEuqfJFc6QeRQLd8lJHtI3hsCmxK9PfYoTk8W8AhxH5Kc47xhldJfpH69+isygUBLZX5iowJDCGwnyS8c0TXOgDlY260Zjtfa8oz+NvFz1X9Gb2MhDuwjpQHLUdO0r3U6g+VgM/MVyc0K7jDZJ+rmSx0fwykk/5Aftb4RB1YVkdbe07rxBkuxOiRE2W1P/D3ajE8W/0ayBCxBn6dHZ+2EdOy4M0nbhheAhw0aNPX5Xht/eDPrpNtBco+qiNCeiiuKGAdm5iDaGgBNAOqVfONmNdsOAJUAqgDsV/21DMCjALoBbNMYu7O39qLtA6syM5XC3uJvSI7SNrfP0WSRJTJYo6DGRXyLCsnUZ16SGyc7miyyhANLuulCvU83vTHRL5C9SRt5jTMeNOtzHXvZgbU7MxVmZFaifVH2qc44KTqknXMwgbXJeXxkuziThF+QvdEZJ8Xt0t6p30J/Alspp7rEXtDWFfqW8d8pIyib8btViFJLAToPUC+WldYjPeeAsDGPdzgPX5K80LEHDIteBNuqrk/4B6N13OENYHhXgmqHS3GHjmAeF2OgdoAehws4Xvdt8chnRW7V4/E0Ac9Je67D5bBVhcOghA+12TxvjYUTTr361rZlbrBYfDmzFeMk+R2X2B+T3V38i7QRh36otTYnuudld7879IEmFZPh0d2k65k66buBLVMJE9vCQXSL1sl89b1MPl1Bd+jscKmjuVb+a6OXwSqST3Q9xgusOZ7OCEO1NvaUCOolcV0qsber35roGnTS71TVa1XIbFUlXaGE8qa9U9Hn1tQUhwv//szEHuqxtJLts94rMkTJrlsJ7y0dRuz5Nzj69dIXFXtCKLPPdrgsUuIeDVKro9QmzaAdRo50BgnVRl9JeJdm3ONcpIXix8CBj3mTiwq34vY+gHMA1ALYWcT2blsA7AXQWMRkWvqJoEIVZl+tTUGNLSMoa3UANhRZS7VkGh/PvJXe4xvtcB7CUW2Uw2WREiM0yIKMQ6ifyj20XCn9LQ5XEh45Q4PZKegGZerZ+jRgrVfdVAK3Sv9wf4PKBWY4TZ85/1aasFOybejhMFsOLMWknwHKA4l/AEBc4bzuAKASAAAAAElFTkSuQmCC"
                       />
                     </svg>
-                    Thông báo gần đây
+                    Thông báo <br/> gần đây
                   </h4>
                   <div className="widget-news st-2 inner-infor">
                     <ul className="list-news">
@@ -101,13 +101,13 @@ const EventsDetails = () => {
                         <ul className="box-content">
                           <li>
                             <h6 className="title">
-                              <Link href="/blog-single">
+                              <Link href="#">
                                 <a>Kế hoạch năm học mới</a>
                               </Link>
                             </h6>
                           </li>
                           <li>
-                            <Link href="/blog-single">
+                            <Link href="#">
                               <a className="fx meta-news clr-pri-4">
                                 <i className="far fa-calendar-alt" />
                                 <span className="f-rubik">25 nov 2021</span>
@@ -125,13 +125,13 @@ const EventsDetails = () => {
                         <ul className="box-content">
                           <li>
                             <h6 className="title">
-                              <Link href="/blog-single">
+                              <Link href="#">
                                 <a>Bảng theo dõi sức khỏe lớp trẻ</a>
                               </Link>
                             </h6>
                           </li>
                           <li>
-                            <Link href="/blog-single">
+                            <Link href="#">
                               <a className="fx meta-news clr-pri-4">
                                 <i className="far fa-calendar-alt" />
                                 <span className="f-rubik">25 nov 2021</span>
@@ -149,13 +149,13 @@ const EventsDetails = () => {
                         <ul className="box-content">
                           <li>
                             <h6 className="title">
-                              <Link href="/blog-single">
+                              <Link href="#">
                                 <a>Nhiệm vụ năm học mới</a>
                               </Link>
                             </h6>
                           </li>
                           <li>
-                            <Link href="/blog-single">
+                            <Link href="#">
                               <a className="fx meta-news clr-pri-4">
                                 <i className="far fa-calendar-alt" />
                                 <span className="f-rubik">25 nov 2021</span>

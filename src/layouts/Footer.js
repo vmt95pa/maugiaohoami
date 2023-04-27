@@ -90,32 +90,32 @@ const Footer = () => {
                   <h4 className="title-widget">Lớp học</h4>
                   <ul className="list-link">
                     <li className="fx">
-                      <Link href="/program">
+                      <Link href="#">
                         <a className="wd-ctm f-mulish">03 đến 12 tháng tuổi</a>
                       </Link>
                     </li>
                     <li className="fx">
-                      <Link href="/program">
+                      <Link href="#">
                         <a className="wd-ctm f-mulish">13 đến 24 tháng tuổi </a>
                       </Link>
                     </li>
                     <li className="fx">
-                      <Link href="/program">
+                      <Link href="#">
                         <a className="wd-ctm f-mulish">25 đến 36 tháng tuổi</a>
                       </Link>
                     </li>
                     <li className="fx">
-                      <Link href="/program">
+                      <Link href="#">
                         <a className="wd-ctm f-mulish">Mẫu giáo 3-4 tuổi</a>
                       </Link>
                     </li>
                     <li className="fx">
-                      <Link href="/program">
+                      <Link href="#">
                         <a className="wd-ctm f-mulish">Mẫu giáo 4-5 tuổi</a>
                       </Link>
                     </li>
                     <li className="fx">
-                      <Link href="/program">
+                      <Link href="#">
                         <a className="wd-ctm f-mulish">Mẫu giáo 5-6 tuổi</a>
                       </Link>
                     </li>
@@ -127,7 +127,7 @@ const Footer = () => {
             <div className="col-12">
               <div className="footer-bottom jus-ct">
                 <p className="copy-right">
-                Copyright © {new Date().getFullYear()}, Mẫu giáo Họa Mi. Designed by{" "}
+                  Copyright © {new Date().getFullYear()}, Mẫu giáo Họa Mi. Designed by{" "}
                   <a href="https://www.facebook.com/takatechsoft">
                     Takatech
                   </a>

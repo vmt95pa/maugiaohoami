@@ -10,7 +10,7 @@ import { fourSlider } from "../src/SliderProps";
 const About = () => {
   return (
     <Layout bodyClass={"about"}>
-      <PageBanner pageName={"About Us"} />
+      <PageBanner pageName={"Giới thiệu"} />
       <section className="tf-section tf-about">
         <div className="container">
           <div className="row">
@@ -89,7 +89,7 @@ const About = () => {
                       <p className="clr-pri-2">Sự kiện & Tiệc</p>
                     </li>
                   </ul>
-                  <Link href="/testimonials">
+                  <Link href="#">
                     <a className="fl-btn st-11">
                       <span className="inner">Xem thêm</span>
                     </a>
@@ -107,7 +107,7 @@ const About = () => {
               <div className="title-heading st-3">
                 <div className="sub-heading clr-pri-3 f-mulish">
                   <LeftArrow />
-                  <span className="inner-sub st-1">Our Activities</span>
+                  <span className="inner-sub st-1">Hoạt động</span>
                   <RightArrow />
                 </div>
                 <h2 className="title clr-pri-2">
@@ -144,14 +144,14 @@ const About = () => {
                     </div>
                     <div className="box-content">
                       <h4 className="title">
-                        <Link href="/classes">
+                        <Link href="#">
                           <a>Học tập & Trò chơi</a>
                         </Link>
                       </h4>
                       <p className="wrap f-mulish">
                         Giúp trẻ học tập một cách tự nhiên và có hứng thú hơn trong việc tiếp thu kiến thức mới.
                       </p>
-                      <Link href="/classes">
+                      <Link href="#">
                         <a className="fl-btn st-13">
                           <span className="inner">Xem thêm</span>
                         </a>
@@ -183,14 +183,14 @@ const About = () => {
                     </div>
                     <div className="box-content">
                       <h4 className="title">
-                        <Link href="/program">
+                        <Link href="#">
                           <a>Chương trình từ <br/> A - Z</a>
                         </Link>
                       </h4>
                       <p className="wrap f-mulish">
                         Giúp trẻ em phát triển về thể chất, tình cảm, trí tuệ, thẩm mĩ, hình thành những yếu tố đầu tiên của nhân cách.
                       </p>
-                      <Link href="/program">
+                      <Link href="#">
                         <a className="fl-btn st-13">
                           <span className="inner">Xem thêm</span>
                         </a>
@@ -224,14 +224,14 @@ const About = () => {
                     </div>
                     <div className="box-content">
                       <h4 className="title">
-                        <Link href="/teacher">
+                        <Link href="#">
                           <a>Giáo viên chuyên nghiệp</a>
                         </Link>
                       </h4>
                       <p className="wrap f-mulish">
                         Đội ngũ giáo viên luôn được đào tạo đảm bảo chất lượng giáo viên đáp ứng đầy đủ yêu cầu theo tiêu chuẩn AMS.
                       </p>
-                      <Link href="/teacher">
+                      <Link href="#">
                         <a className="fl-btn st-13">
                           <span className="inner">Xem thêm</span>
                         </a>
@@ -266,14 +266,14 @@ const About = () => {
                     </div>
                     <div className="box-content">
                       <h4 className="title">
-                        <Link href="/events">
+                        <Link href="#">
                           <a>Sức khỏe, tâm lý</a>
                         </Link>
                       </h4>
                       <p className="wrap f-mulish">
                         Cung cấp thực đơn đầy đủ dinh dưỡng, chăm lo tâm lý trẻ, giúp trẻ phát triển một cách toàn diện nhất.
                       </p>
-                      <Link href="/events">
+                      <Link href="#">
                         <a className="fl-btn st-13">
                           <span className="inner">Xem thêm</span>
                         </a>

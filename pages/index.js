@@ -79,7 +79,7 @@ const Index = () => {
                             </li>
                           </ul>
                           <div className="box-btn">
-                            <a href="contact/" className="fl-btn st-12">
+                            <a href="/contact" className="fl-btn st-12">
                               <span className="inner">Liên hệ</span>
                             </a>
                             <Link href="/about">
@@ -209,14 +209,14 @@ const Index = () => {
                 </div>
                 <div className="box-content">
                   <h4 className="title">
-                    <Link href="/classes">
+                    <Link href="/about">
                       <a>Học tập &amp; Trò chơi</a>
                     </Link>
                   </h4>
                   <p className="wrap f-mulish">
                     Giúp trẻ  học tập một cách tự nhiên và có hứng thú hơn trong việc tiếp thu kiến thức mới.
                   </p>
-                  <Link href="/classes">
+                  <Link href="/about">
                     <a className="fl-btn st-13">
                       <span className="inner">Xem thêm</span>
                     </a>
@@ -249,14 +249,14 @@ const Index = () => {
                 </div>
                 <div className="box-content">
                   <h4 className="title">
-                    <Link href="/program">
+                    <Link href="/about">
                       <a style={{ fontSize: "23px" }}>Chương trình từ A - Z</a>
                     </Link>
                   </h4>
                   <p className="wrap f-mulish">
                     Giúp trẻ em phát triển về thể chất, tình cảm, trí tuệ, thẩm mĩ, hình thành những yếu tố đầu tiên của nhân cách.
                   </p>
-                  <Link href="/program">
+                  <Link href="/about">
                     <a className="fl-btn st-13">
                       <span className="inner">xem thêm</span>
                     </a>
@@ -289,14 +289,14 @@ const Index = () => {
                 </div>
                 <div className="box-content">
                   <h4 className="title">
-                    <Link href="/teacher">
+                    <Link href="/about">
                       <a style={{ fontSize: "19px" }}>Giáo viên chuyên nghiệp</a>
                     </Link>
                   </h4>
                   <p className="wrap f-mulish">
                     Đội ngũ giáo viên luôn được đào tạo đảm bảo chất lượng giáo viên đáp ứng đầy đủ yêu cầu theo tiêu chuẩn AMS.
                   </p>
-                  <Link href="/teacher">
+                  <Link href="/about">
                     <a className="fl-btn st-13">
                       <span className="inner">xem thêm</span>
                     </a>
@@ -329,14 +329,14 @@ const Index = () => {
                 </div>
                 <div className="box-content">
                   <h4 className="title">
-                    <Link href="/events">
+                    <Link href="/about">
                       <a>Sức khỏe, tâm lý</a>
                     </Link>
                   </h4>
                   <p className="wrap f-mulish">
                     Cung cấp thực đơn đầy đủ dinh dưỡng, chăm lo tâm lý trẻ, giúp trẻ phát triển một cách toàn diện nhất.
                   </p>
-                  <Link href="/events">
+                  <Link href="/about">
                     <a className="fl-btn st-13">
                       <span className="inner">xem thêm</span>
                     </a>
