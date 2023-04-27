@@ -36,7 +36,7 @@ const Contact = () => {
                   <p className="desc">
                   </p>
                   <a href="#" className="fl-btn st-5">
-                    <span className="inner">Contact Us</span>
+                    <span className="inner">Liên hệ</span>
                   </a>
                 </div>
               </div>
@@ -55,7 +55,7 @@ const Contact = () => {
                   <p className="desc">
                   </p>
                   <a href="#" className="fl-btn st-5">
-                    <span className="inner">Contact Us</span>
+                    <span className="inner">Liên hệ</span>
                   </a>
                 </div>
               </div>
@@ -74,7 +74,7 @@ const Contact = () => {
                   <p className="desc">
                   </p>
                   <a href="#" className="fl-btn st-5">
-                    <span className="inner">Contact Us</span>
+                    <span className="inner">Liên hệ</span>
                   </a>
                 </div>
               </div>
