@@ -24,6 +24,13 @@ const Header1 = () => {
   return (
     <header id="site-header" className="header_main d-none d-xl-block">
       <div className="container">
+        <div className="top-bar">
+          <div className="inner jus-ct">
+            <p className="clr-pri-1">
+              Lịch học : Thứ 2 - Thứ 7, 08:00 - 17:00
+            </p>
+          </div>
+        </div>
         <div className="row">
           <div className="col-xl-12 col-lg-12 col-md-6 col-sm-6 col-6">
             <div className="top-bar-2 fx">
@@ -55,7 +62,7 @@ const Header1 = () => {
                   </svg>
                   <ul>
                     <li className="clr-pri-4">Địa chỉ</li>
-                    <li className="clr-pri-2">Thôn Tân Trung - Ea Kênh,<br/> Krông Păc- Đăk Lăk</li>
+                    <li className="clr-pri-2">Thôn Tân Trung - Ea Kênh,<br /> Krông Păc- Đăk Lăk</li>
                   </ul>
                 </div>
                 <div className="inner-contact fx">
@@ -80,7 +87,7 @@ const Header1 = () => {
                     <li className="clr-pri-2">+84 123.844.5661</li>
                   </ul>
                 </div>
-                
+
               </div>
             </div>
           </div>
@@ -103,7 +110,7 @@ const Header1 = () => {
                       </Link>
                     </li>
                     <li className="menu-item-has-children">
-                      <Link href={ navigatorData.TIME_TABLE.href}>
+                      <Link href={navigatorData.TIME_TABLE.href}>
                         <a>{navigatorData.TIME_TABLE.title}</a>
                       </Link>
                       <ul className="sub-menu">
