@@ -1,4 +1,3 @@
-import Link from "next/link";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { fourSlider } from "../SliderProps";
 import ReactPlayer from 'react-player';
