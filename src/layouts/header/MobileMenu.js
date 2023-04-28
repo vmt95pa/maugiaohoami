@@ -136,7 +136,7 @@ const MobileMenu = () => {
                       </svg>
                       <ul>
                         <li className="clr-pri-2">Điện thoại</li>
-                        <li className="clr-pri-2">+84 123.844.5661</li>
+                        <li className="clr-pri-2">+84 262 365 6666</li>
                       </ul>
                     </div>
                   </div>

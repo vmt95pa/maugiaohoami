@@ -18,7 +18,7 @@ const Contact = () => {
                   <RightArrow />
                 </div>
                 <h2 className="title clr-pri-2">
-                 Trường mẫu giáo Họa Mi
+                 Trường Mầm non quốc tế Đức Tài
                 </h2>
               </div>
             </div>
@@ -92,7 +92,7 @@ const Contact = () => {
                   <RightArrow />
                 </div>
                 <h2 className="title clr-pri-2 m-b26">
-                  Trường mẫu giáo Họa Mi
+                  Trường Mầm non quốc tế Đức Tài
                 </h2>
               </div>
               <div className="wrap-contact">
@@ -160,7 +160,7 @@ const Contact = () => {
                   </div>
                   <div className="content">
                     <p>Điện thoại</p>
-                    <h4>+84 123.844.5661</h4>
+                    <h4>+84 262 365 6666</h4>
                   </div>
                 </div>
               </div>
@@ -182,7 +182,7 @@ const Contact = () => {
           <div className="flat-map">
             <iframe
               className="map-content wow fadeInUp   animated"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15567.28767375246!2d108.24055743838488!3d12.725037767260133!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3171e509195b9d53%3A0xb9ec7acc71912ca!2zSOG7kyBQaMaw4bubYyBM4bujaQ!5e0!3m2!1svi!2s!4v1682043578270!5m2!1svi!2s"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3892.0411398916513!2d108.30236967574467!3d12.710737887581223!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3171e58c71607121%3A0xf7596bb33c05d657!2zMSBWw7UgVGjhu4sgU8OhdSwgUGjGsOG7m2MgQW4sIEtyw7RuZyBQxIPMgWMsIMSQ4bqvayBM4bqvaywgVmnhu4d0IE5hbQ!5e0!3m2!1svi!2s!4v1682586465077!5m2!1svi!2s"
               width={1720}
               height={655}
               style={{

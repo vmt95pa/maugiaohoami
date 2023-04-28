@@ -16,7 +16,7 @@ const App = ({ Component, pageProps }) => {
     <Provider store={store}>
       <Fragment>
         <Head>
-          <title>Mẫu giáo Họa Mi</title>
+          <title>Mầm non quốc tế Đức Tài</title>
           <link rel="shortcut icon" href="assets/images/logo/logo.png" />
           <link
             rel="apple-touch-icon-precomposed"

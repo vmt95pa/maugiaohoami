@@ -46,7 +46,7 @@ const Index = () => {
                             Là một niềm vui
                           </div>
                           <div className="box-custom">
-                            <div className="wrap clr-pri-1" style={{fontFamily:'Lobster'}}>Mẫu giáo Họa Mi</div>
+                            <div className="wrap clr-pri-1" style={{ fontFamily: 'Lobster' }}>Mầm non quốc tế <br /> Đức Tài</div>
                             <svg
                               data-name="Hero Area"
                               xmlns="http://www.w3.org/2000/svg"
@@ -109,7 +109,7 @@ const Index = () => {
                             Là một niềm vui
                           </div>
                           <div className="box-custom">
-                            <div className="wrap clr-pri-1" style={{fontFamily:'Lobster'}} >Mẫu giáo Họa Mi</div>
+                            <div className="wrap clr-pri-1" style={{ fontFamily: 'Lobster' }}>Mầm non quốc tế <br /> Đức Tài</div>
                             <svg
                               data-name="Hero Area"
                               xmlns="http://www.w3.org/2000/svg"
@@ -404,7 +404,7 @@ const Index = () => {
                   <RightArrow />
                 </div>
                 <h2 className="title clr-pri-2">
-                  Đăng ký ngay cho trẻ  <br/> một lớp học phù hợp !
+                  Đăng ký ngay cho trẻ  <br /> một lớp học phù hợp !
                 </h2>
               </div>
             </div>
@@ -487,7 +487,7 @@ const Index = () => {
           </div>
         </div>
       </section>
-    
+
       <Footer2 />
     </Layout>
   );

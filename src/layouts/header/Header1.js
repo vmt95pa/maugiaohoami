@@ -37,7 +37,7 @@ const Header1 = () => {
               <div id="site-logo" className="clearfix">
                 <Link href="/">
                   <a className="logo st-2">
-                    <img src="assets/images/logo/logo.png" alt="Kinco" />
+                    <img style={{width:"100px", height:"100px"}} src="assets/images/logo/logo.png" alt="Kinco" />
                   </a>
                 </Link>
               </div>
@@ -62,7 +62,7 @@ const Header1 = () => {
                   </svg>
                   <ul>
                     <li className="clr-pri-4">Địa chỉ</li>
-                    <li className="clr-pri-2">Thôn Tân Trung - Ea Kênh,<br /> Krông Păc- Đăk Lăk</li>
+                    <li className="clr-pri-2">Số 01, Võ Thị Sáu, Phước An, Krông Pắc, Đắk Lắk</li>
                   </ul>
                 </div>
                 <div className="inner-contact fx">
@@ -84,7 +84,7 @@ const Header1 = () => {
                   </svg>
                   <ul>
                     <li className="clr-pri-4">Điện thoại</li>
-                    <li className="clr-pri-2">+84 123.844.5661</li>
+                    <li className="clr-pri-2">+84 262 365 6666</li>
                   </ul>
                 </div>
 

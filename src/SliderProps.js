@@ -43,10 +43,10 @@ export const themesflatcarousel = {
 };
 export const fourSlider = {
   loop: true,
-  speed: 1400,
+  speed: 140000,
   spaceBetween: 30,
   autoplay: {
-    delay: 6000,
+    delay: 60000,
     disableOnInteraction: false,
   },
   breakpoints: {

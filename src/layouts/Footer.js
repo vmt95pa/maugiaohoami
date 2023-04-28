@@ -50,8 +50,7 @@ const Footer = () => {
                     <ul>
                       <li className="fx">
                         <span>
-                          <i className="far fa-map-marker-alt" /> Ea Kênh,
-                          Krông Păc- Đăk Lăk
+                          <i className="far fa-map-marker-alt" /> Số 01, Võ Thị Sáu, Phước An
                         </span>
                       </li>
                       <li className="fx">
@@ -61,7 +60,7 @@ const Footer = () => {
                       </li>
                       <li className="fx">
                         <a href="tel:012345678">
-                          <i className="fal fa-phone" /> +84 123.844.5661
+                          <i className="fal fa-phone" /> +84 262 365 6666
                         </a>
                       </li>
                     </ul>
@@ -127,7 +126,7 @@ const Footer = () => {
             <div className="col-12">
               <div className="footer-bottom jus-ct">
                 <p className="copy-right">
-                  Copyright © {new Date().getFullYear()}, Mẫu giáo Họa Mi. Designed by{" "}
+                  Copyright © {new Date().getFullYear()}, Mầm non quốc tế Đức Tài. Designed by{" "}
                   <a href="https://www.facebook.com/takatechsoft">
                     Takatech
                   </a>

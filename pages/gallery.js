@@ -1,3 +1,4 @@
+
 import PageBanner from "../src/components/PageBanner";
 import PhotoGallerySlider from "../src/components/PhotoGallerySlider";
 import { LeftArrow, RightArrow } from "../src/Icons";
@@ -6,7 +7,7 @@ import Layout from "../src/layouts/Layout";
 const Gallery = () => {
   return (
     <Layout bodyClass={"gallery"}>
-      <PageBanner pageName={"Gallery"} />
+      <PageBanner pageName={"Thư viện ảnh"} />
 
       <section className="tf-section tf-galley">
         <div className="container">
@@ -15,34 +16,24 @@ const Gallery = () => {
               <div className="title-heading st-4">
                 <div className="sub-heading clr-pri-3 f-mulish">
                   <LeftArrow />
-                  <span className="inner-sub st-1">Photo Gallery</span>
+                  <span className="inner-sub st-1">Thư viện ảnh</span>
                   <RightArrow />
                 </div>
-                <h2 className="title clr-pri-2">
-                  Explore Our Case Studies &amp; Recent Photo Gallery
-                </h2>
               </div>
             </div>
             <div className="col-xl-4 col-lg-4 col-md-4 col-12">
               <div
-                className="sc-gallery wow fadeIn animated"
+                className="sc-gallery wow  "
                 data-wow-delay="0.3ms"
                 data-wow-duration="1200ms"
               >
-                <div className="box-feature active">
+                <div className="box-feature">
                   <img
                     src="assets/images/common/sc-gallery-1.jpg"
                     alt="Image"
                   />
                   <div className="overlay" />
-                  <div className="box-content">
-                    <h5 className="title">
-                      <a href="#" className=" clr-pri-2">
-                        Outdoor &amp; Gaming
-                      </a>
-                    </h5>
-                    <p className="f-rubik">kindergarten</p>
-                  </div>
+                  
                 </div>
               </div>
             </div>
@@ -58,14 +49,7 @@ const Gallery = () => {
                     alt="Image"
                   />
                   <div className="overlay" />
-                  <div className="box-content">
-                    <h5 className="title">
-                      <a href="#" className=" clr-pri-2">
-                        Outdoor &amp; Gaming
-                      </a>
-                    </h5>
-                    <p className="f-rubik">kindergarten</p>
-                  </div>
+                  
                 </div>
               </div>
             </div>
@@ -81,14 +65,7 @@ const Gallery = () => {
                     alt="Image"
                   />
                   <div className="overlay" />
-                  <div className="box-content">
-                    <h5 className="title">
-                      <a href="#" className=" clr-pri-2">
-                        Outdoor &amp; Gaming
-                      </a>
-                    </h5>
-                    <p className="f-rubik">kindergarten</p>
-                  </div>
+                  
                 </div>
               </div>
             </div>
@@ -104,14 +81,7 @@ const Gallery = () => {
                     alt="Image"
                   />
                   <div className="overlay" />
-                  <div className="box-content">
-                    <h5 className="title">
-                      <a href="#" className=" clr-pri-2">
-                        Outdoor &amp; Gaming
-                      </a>
-                    </h5>
-                    <p className="f-rubik">kindergarten</p>
-                  </div>
+                  
                 </div>
               </div>
             </div>
@@ -127,14 +97,7 @@ const Gallery = () => {
                     alt="Image"
                   />
                   <div className="overlay" />
-                  <div className="box-content">
-                    <h5 className="title">
-                      <a href="#" className=" clr-pri-2">
-                        Outdoor &amp; Gaming
-                      </a>
-                    </h5>
-                    <p className="f-rubik">kindergarten</p>
-                  </div>
+                  
                 </div>
               </div>
             </div>
@@ -148,12 +111,9 @@ const Gallery = () => {
               <div className="title-heading st-3">
                 <div className="sub-heading clr-pri-3 f-mulish">
                   <LeftArrow />
-                  <span className="inner-sub st-1">Photo Gallery</span>
+                  <span className="inner-sub st-1">Video</span>
                   <RightArrow />
                 </div>
-                <h2 className="title clr-pri-2">
-                  Explore Our Case Studies &amp; Recent Photo Gallery
-                </h2>
               </div>
             </div>
             <div className="col-12">
@@ -161,6 +121,7 @@ const Gallery = () => {
                 <div className="themesflat-carousel clearfix">
                   <PhotoGallerySlider />
                 </div>
+               
                 {/*/.themesflat-carousel*/}
               </div>
             </div>
